@@ -1,0 +1,40 @@
+Pointers:
+
+- they simply carry the location of some other node.
+- they have the "address" i.e the location stored in them
+- they according to me are the most generous variables as all they store is the address of some other nodes. Ever seen a more generous thing?
+
+I) <Application>
+
+#) While creating a node for a Binary tree.
+
+  struct Node{
+    int data;        -------- The data stored in the node
+    Node* next;      -------- It is a pointer to a node. It is simply a pointer
+  }
+
+# Also if,                |       # During instantiation of class Node;
+                          |
+  class Node{             |         Node* n = new Node();   ----------- Here, n is also a pointer, and not a node
+    int data;             |
+    Node* next;           |       # To find the exact address value stored in the pointer for let's say:
+  }                       |
+                          |         Node* p = new Node();
+                          |         p ---------- "p" gives the location/address value stored in it.
+
+  II) <Application>
+
+      #) While passing an array to a function by using "call by value", the array simply decays into a mere pointer.
+      Ex:
+
+      void call(int arr[]){
+        arr[2] = 0;   ------------ This change gets reflected in the main function as well, though it was sent using the "call by value" technique.
+      }               ------------ The main use of "call by value" here was so that we could do modification on a copy of the passes arr, making the change not to be felt in the main function.
+                      ------------ But here, the change is seen in the main function whatsoever, as the array of size 3, gets decayed to a single pointer pointing to the first array element.
+                      ------------ So obviously, as pointer is a "global variable" by nature the changes also get reflected in the main function as well.
+                      ------------ This is quite an anamalous behaviour by the array-pointer construct, but programmers use this for their advantage only.
+
+      int main(){
+        int arr[3] = {1,5,3};
+        call(arr);
+      }
