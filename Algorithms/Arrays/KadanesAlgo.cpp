@@ -8,11 +8,23 @@ typedef long long ll;
 ll call(ll arr[], ll n){
   ll localMax = 0;
   ll maximum = 0;
+  ll start = 0;
+  ll end = 0;
+  ll s = 0;
 
   for(ll i=0;i<n;i++){
+
+    if(arr[i] > localMax + arr[i]){
+      start = i;
+    }
     localMax = max(localMax + arr[i] , arr[i]);
+
+    if(maximum < localMax){
+      end = i;
+    }
     maximum = max(maximum, localMax);
   }
+  cout << "The index of start: " << start << " The index of end: " << end << endl;
   return maximum;
 }
 
