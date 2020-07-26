@@ -20,7 +20,7 @@ int minSwaps(int A[], int N){
             break;
         }
         if(A[i] == m[i]) continue;
-        auto temp = find(A,A+N,m[i]);c// this find always renders a pointer.
+        auto temp = find(A,A+N,m[i]);// this find always renders a pointer.
         swap(A[i],A[distance(A,temp)]);
 
         count++;
