@@ -4,7 +4,7 @@
 
 // Problem Name: Maximum Sum path in two arrays
 
-// Mrge Sort Look-Alike
+// Merge Sort Look-Alike
 
 int max_path_sum(int A[], int B[], int l1, int l2)
 {

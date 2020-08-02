@@ -3,6 +3,8 @@
 
 // Problem Link: https://practice.geeksforgeeks.org/problems/minimum-swaps/1
 
+
+// map<int,int> NOT NEEDED HERE !!
 int minSwaps(int A[], int N){
     /*Your code here */
 

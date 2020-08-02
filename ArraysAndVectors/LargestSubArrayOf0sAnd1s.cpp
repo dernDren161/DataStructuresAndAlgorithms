@@ -1,4 +1,4 @@
-// A function Code.
+ // A function Code.
 // Problem Link: https://practice.geeksforgeeks.org/problems/largest-subarray-of-0s-and-1s/1/?track=md-arrays&batchId=144
 int maxLen(int arr[], int n) {
    for(int i=0;i<n;i++){
