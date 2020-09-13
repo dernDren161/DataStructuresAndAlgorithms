@@ -4,26 +4,31 @@
 // By recursion - 2^n
 // By DP - O(nm)
 // By DP(space) also - O(nm)
-int call(int W, int wt[], int val[], int n){
+int call(int W, int n, int wt[], int val[]){
 
-    int m[n+1][W+1];
+    int mat[n+1][W+1];
 
     for(int i=0;i<n+1;i++){
         for(int j=0;j<W+1;j++){
-            if(i==0 || j==0) m[i][j] = 0;
-
-            else if(j < wt[i-1]) m[i][j] = m[i-1][j];
-
-            else{
-                m[i][j] = max(val[i-1]+m[i-1][j-wt[i-1]], m[i-1][j]);
+            if(i == 0 || j == 0){
+                mat[i][j] = 0;
             }
+
+             else if(j < wt[i-1]){
+                mat[i][j] = mat[i-1][j];
+            }
+            else{
+                mat[i][j] = max((val[i-1]+ mat[i-1][j-wt[i-1]]),(mat[i-1][j]));
+            }
+
+
         }
     }
 
-    return m[n][W];
+   return mat[n][W];
 }
 
 int knapSack(int W, int wt[], int val[], int n)
 {
-   return call(W,wt,val,n);
+    return call(W,n,wt,val);
 }

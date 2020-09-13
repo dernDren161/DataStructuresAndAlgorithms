@@ -1,6 +1,7 @@
 // Problem Link: https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1/?track=amazon-graphs&batchId=192
 
 // @ PUN , P - parent, UN - undirected
+// Loop possible if : "already visited" && "not a parent of the current node"
 bool call(bool* truth, int i, vector<int> g[], int parent){
     truth[i] = true;
     for(int x : g[i]){

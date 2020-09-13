@@ -11,8 +11,8 @@ ll call(ll i, ll j,ll test){
 truth[i][j] = 1;
 if((arr[i][j+1]=='T')&&(j+1<test)&&(truth[i][j+1]==0)) co+=call(i,j+1,test);
 if((arr[i+1][j]=='T')&&(i+1<test)&&(truth[i+1][j]==0)) co+=call(i+1,j,test);
-if((arr[i][j-1]=='T')&&(j>0)&&(truth[i][j-1]==0)) co+=call(i,j-1,test);
-if((arr[i-1][j]=='T')&&(i>0)&&(truth[i-1][j]==0)) co+=call(i-1,j,test);
+if((arr[i][j-1]=='T')&&(j-1>=0)&&(truth[i][j-1]==0)) co+=call(i,j-1,test);
+if((arr[i-1][j]=='T')&&(i-1>=0)&&(truth[i-1][j]==0)) co+=call(i-1,j,test);
 return co;
 }
 

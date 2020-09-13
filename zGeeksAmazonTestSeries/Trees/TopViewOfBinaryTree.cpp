@@ -1,5 +1,7 @@
 // Problem Link: https://practice.geeksforgeeks.org/problems/top-view-of-binary-tree/1
 
+// pre order traversal.-- because the node display is from Left to Right.
+
 void call(Node* root, int dist, int level, map<int,pair<int,int>> &m){
 
     if(root == NULL) return;

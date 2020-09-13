@@ -3,10 +3,10 @@ using namespace std;
 typedef long long ll;
 
 ll call(ll arr[], ll n){
-  ll localMax = 0;
-  ll maximum = 0;
+  ll localMax = arr[0];
+  ll maximum = arr[0];
 
-  for(ll i=0;i<n;i++){
+  for(ll i=1;i<n;i++){
     localMax = max(localMax + arr[i] , arr[i]);
     maximum = max(maximum, localMax);
   }

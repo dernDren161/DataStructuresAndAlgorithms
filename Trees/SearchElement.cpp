@@ -18,7 +18,7 @@ public:
 
 void call(Node* root, int num){
 
-  // I will do a pre-order traversal here.
+  // I will do a post-order traversal here.
 
   if(root == NULL) return;
 

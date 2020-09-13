@@ -34,6 +34,7 @@ int romanToDecimal(string &str) {
     int res = 0;
     for(int i=0;i<num;i++){
 
+        // This is a very good trick;
         if(i+1 < num){ /// till excluding the last element
             if(call(str[i]) >= call(str[i+1])){
                 res = res + call(str[i]);

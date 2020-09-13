@@ -21,6 +21,7 @@ void call(Node* root){
             cout << temp -> data << " ";
         }
         else{
+          // for left view, first push ---> right pointer
             if(cur -> right) qs.push(cur -> right);
             if(cur -> left) qs.push(cur -> left);
         }

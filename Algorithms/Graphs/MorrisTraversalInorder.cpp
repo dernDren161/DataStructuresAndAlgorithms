@@ -42,18 +42,18 @@ void morrisInorder(Node* root){
   cur = root;
   while(cur != NULL){
 
-    if(cur -> left == NULL){
+    if(cur -> left == NULL){ // On reaching the Leftmost node.
       cout <<  cur -> data << " ";
       cur = cur -> right;
     }
     else{
       predes = cur -> left;
-      while(predes -> right != NULL && (predes -> right != cur))
+      while(predes -> right != NULL && (predes -> right != cur)) // to reach the Rightmost node.
         predes = predes -> right;
 
         if(predes -> right == NULL){
-          predes -> right = cur;
-          cur = cur -> left;
+          predes -> right = cur;  // Bridge formation
+          cur = cur -> left;   // After forming the bridge, shift the "cur" node itself.
         }
         else{ // this is breaking the bridge
           // also this means when (preceds -> right == cur)

@@ -25,6 +25,7 @@ int rotOranges(vector<vector<int> > &matrix, int R, int C)
   int r[4] = {-1,0,0,1};
   int c[4] = {0,-1,1,0};
   int truth[R][C];
+  // memset(truth,0,sizeof(truth));
   for(int i = 0;i<R;i++){
       for(int j = 0;j<C;j++){
           truth[i][j] = 0;
