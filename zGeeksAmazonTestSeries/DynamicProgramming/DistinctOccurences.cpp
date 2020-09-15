@@ -1,34 +1,26 @@
 // Problem Link: https://practice.geeksforgeeks.org/problems/distinct-occurrences/1/?track=amazon-dynamic-programming&batchId=192
-
+// Top Down approach
 int subsequenceCount(string S, string T)
 {
-  int s = S.size(); // column
-  int t = T.size(); // row
 
-  int mat[t][s];
-  int temp = 0;
-  for(int i =0;i<s;i++){
-    if(T[0] == S[i]){
-        mat[0][i] = ++temp;
-    }    else{
-        mat[0][i] = temp;
+    int x = S.length();
+    int y = T.length();
+
+    int mat[x+1][y+1];
+
+    for(int i=0;i<x+1;i++) mat[i][0] = 1;
+    for(int i=1;i<y+1;i++) mat[0][i] = 0; // the base case used in recursion as: if(j == 0) return call(S,T,i-1,j) + 1;
+
+    for(int i=1;i<x+1;i++){
+        for(int j=1;j<y+1;j++){
+
+            if(S[i-1] == T[j-1]){
+                mat[i][j] = (mat[i-1][j] + mat[i-1][j-1]) % 1000000007;
+            }else {
+                mat[i][j] = mat[i-1][j];
+            }
+        }
     }
-  }
 
-  int tempo = 0;
-  for(int i = 1; i<t;i++){
-      for(int j = 0;j<s;j++){
-          if(j == 0){
-              mat[i][j] = 0;
-              continue;
-          }
-          if(T[i] == S[j]){
-              mat[i][j] = (mat[i][j-1] + mat[i-1][j-1]) % (1000000007);
-              continue;
-          }
-          mat[i][j] = (mat[i][j-1]) % (1000000007);
-      }
-  }
-  int u = mat[t-1][s-1];
-  return ((u) % (1000000007));
+    return mat[x][y];
 }
