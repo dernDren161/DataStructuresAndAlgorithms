@@ -1,25 +1,52 @@
+// C++ program to cover a sequence of points
+// in minimum steps in a given order.
+#include <bits/stdc++.h>
+using namespace std;
+
+// cell structure denoted as point
+struct point {
+	int x, y;
+};
+
+// function to give minimum steps to
+// move from point p1 to p2
+int shortestPath(point p1, point p2)
 {
-  int dp[T.length() + 1][S.length() + 1];
-  for (int i = 1; i <= T.length(); i++)
-        dp[i][0] = 0;
+	// dx is total horizontal
+	// distance to be covered
+	int dx = abs(p1.x - p2.x);
 
-    // Initializing first row with all 1s. An empty
-    // string is subsequence of all.
-  for (int j = 0; j <= S.length(); j++)
-        dp[0][j] = 1;
-  for(int i = 1;i<=T.length();i++){
+	// dy is total vertical
+	// distance to be covered
+	int dy = abs(p1.y - p2.y);
 
-      for(int j = 1;j<=S.length();j++){
-          //if(j==0) dp[i][j] = 0;
-          //else if(i == 0) dp[i][j] = 1;
-          if(T[i-1] == S[j-1]){
-            dp[i][j] = dp[i-1][j-1] + dp[i][j-1];
-          }
-          else if(T[i-1] != S[j-1]){
-            dp[i][j] = dp[i][j-1];
-          }
-      }
-  }
-  return dp[T.length()][S.length()];
-  //Your code here
+	// required answer is
+	// maximum of these two
+	return max(dx, dy);
+}
+
+// Function to return the minimum steps
+int coverPoints(point sequence[], int size)
+{
+	int stepCount = 0; 
+
+	// finding steps for each
+	// consecutive point in the sequence
+	for (int i = 0; i < size - 1; i++) {
+		stepCount += shortestPath(sequence[i],
+								sequence[i + 1]);
+	}
+
+	return stepCount;
+}
+
+// Driver code
+int main()
+{
+	// arr stores sequence of points
+	// that are to be visited
+	point arr[] = { { 4, 6 }, { 1, 2 }, { 4, 5 }, { 10, 12 } };
+
+	int n = sizeof(arr) / sizeof(arr[0]);
+	cout << coverPoints(arr, n);
 }

@@ -23,7 +23,6 @@ bool isCyclic(int V, vector<int> adj[])
   bool* truth = new bool[V];
   bool* cross = new bool[V];
 
-  bool temp;
   memset(truth,false,V);
   memset(cross,false,V);
 
