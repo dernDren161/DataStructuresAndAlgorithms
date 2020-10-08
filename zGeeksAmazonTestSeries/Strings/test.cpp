@@ -1,122 +1,75 @@
-// C++ implementation of the approach
-#include <iostream>
+#include<bits/stdc++.h>
+
 using namespace std;
 
-// To store the size of the maximum sub-tree
-// with equal number of 0's and 1's
-int maxSize = -1;
-
-// Represents a node of the tree
-struct node {
+/* A binary tree node has data,
+pointer to left child and
+a pointer to right child */
+class node
+{
+	public:
 	int data;
-	struct node *right, *left;
+	node* left;
+	node* right;
+
+	/* Constructor that allocates
+	a new node with the given data
+	and NULL left and right pointers. */
+	node(int data)
+	{
+		this->data = data;
+		this->left = NULL;
+		this->right = NULL;
+	}
 };
 
-// To create a new node
-struct node* newnode(int key)
+int isBSTUtil(node* node, int min, int max);
+
+/* Returns true if the given
+tree is a binary search tree
+(efficient version). */
+int isBST(node* node)
 {
-	struct node* temp = new node;
-	temp->data = key;
-	temp->right = NULL;
-	temp->left = NULL;
-	return temp;
+	return(isBSTUtil(node, INT_MIN, INT_MAX));
 }
 
-// Function to perform inorder traversal on
-// the tree and print the nodes in that order
-void inorder(struct node* root)
+/* Returns true if the given
+tree is a BST and its values
+are >= min and <= max. */
+int isBSTUtil(node* node, int min, int max)
 {
-	if (root == NULL)
-		return;
-	inorder(root->left);
-	cout << root->data << endl;
-	inorder(root->right);
-}
+	/* an empty tree is BST */
+	if (node==NULL)
+		return 1;
 
-// Function to return the maximum size of
-// the sub-tree having equal number of 0's and 1's
-int maxsize(struct node* root)
-{
-	int a = 0, b = 0;
-	if (root == NULL)
+	/* false if this node violates
+	the min/max constraint */
+	if (node->data < min || node->data > max)
 		return 0;
 
-	// Max size in the right sub-tree
-	a = maxsize(root->right);
-
-	// 1 is added for the parent
-	a = a + 1;
-
-	// Max size in the left sub-tree
-	b = maxsize(root->left);
-
-	// Total size of the tree
-	// rooted at the current node
-	a = b + a;
-
-	// If the current tree has equal
-	// number of 0's and 1's
-	if (root->data == 0)
-
-		// If the total size exceeds
-		// the current max
-		if (a >= maxSize)
-			maxSize = a;
-
-	return a;
+	/* otherwise check the subtrees recursively,
+	tightening the min or max constraint */
+	return
+		isBSTUtil(node->left, min, node->data-1) && // Allow only distinct values
+		isBSTUtil(node->right, node->data+1, max); // Allow only distinct values
 }
 
-// Function to update and return the sum
-// of all the tree nodes rooted at
-// the passed node
 
-// saddhai post order
-int sum_tree(struct node* root)
+/* Driver code*/
+int main() 
 {
+	node *root = new node(4);
+	root->left = new node(2);
+	root->right = new node(5);
+	root->left->left = new node(1);
+	root->left->right = new node(3);
 
-	if (root != NULL)
-
-		// If current node's value is 0
-		// then update it to -1
-		if (root->data == 0)
-			root->data = -1;
-
-	int a = 0, b = 0;
-
-	// If left child exists
-	if (root->left != NULL)
-		a = sum_tree(root->left);
-                                                                    
-	// If right child exists
-	if (root->right != NULL)
-		b = sum_tree(root->right);
-	root->data += (a + b);
-
-	return root->data;
-}
-
-// Driver code
-int main()
-{
-	struct node* root = newnode(1);
-	root->right = newnode(0);
-	root->right->right = newnode(1);
-	root->right->right->right = newnode(1);
-	root->left = newnode(0);
-	root->left->left = newnode(1);
-	root->left->left->left = newnode(1);
-	root->left->right = newnode(0);
-	root->left->right->left = newnode(1);
-	root->left->right->left->left = newnode(1);
-	root->left->right->right = newnode(0);
-	root->left->right->right->left = newnode(0);
-	root->left->right->right->left->left = newnode(1);
-
-	sum_tree(root);
-
-	maxsize(root);
-
-	cout << maxSize;
+	if(isBST(root))
+		cout<<"Is BST";
+	else
+		cout<<"Not a BST";
 
 	return 0;
 }
+
+// This code is contributed by rathbhupendra

@@ -1,52 +1,68 @@
-// C++ program to cover a sequence of points
-// in minimum steps in a given order.
-#include <bits/stdc++.h>
-using namespace std;
+// Java program to illustrate
+// the concept of Composition
+import java.io.*;
+import java.util.*;
 
-// cell structure denoted as point
-struct point {
-	int x, y;
-};
-
-// function to give minimum steps to
-// move from point p1 to p2
-int shortestPath(point p1, point p2)
+// class book
+class Book
 {
-	// dx is total horizontal
-	// distance to be covered
-	int dx = abs(p1.x - p2.x);
 
-	// dy is total vertical
-	// distance to be covered
-	int dy = abs(p1.y - p2.y);
+	public String title;
+	public String author;
 
-	// required answer is
-	// maximum of these two
-	return max(dx, dy);
+	Book(String title, String author)
+	{
+
+		this.title = title;
+		this.author = author;
+	}
 }
 
-// Function to return the minimum steps
-int coverPoints(point sequence[], int size)
+// Libary class contains
+// list of books.
+class Library
 {
-	int stepCount = 0; 
 
-	// finding steps for each
-	// consecutive point in the sequence
-	for (int i = 0; i < size - 1; i++) {
-		stepCount += shortestPath(sequence[i],
-								sequence[i + 1]);
+	// reference to refer to list of books.
+	private final List<Book> books;
+
+	Library (List<Book> books)
+	{
+		this.books = books;
 	}
 
-	return stepCount;
+	public List<Book> getTotalBooksInLibrary(){
+
+	return books;
+	}
+
 }
 
-// Driver code
-int main()
+// main method
+class GFG
 {
-	// arr stores sequence of points
-	// that are to be visited
-	point arr[] = { { 4, 6 }, { 1, 2 }, { 4, 5 }, { 10, 12 } };
+	public static void main (String[] args)
+	{
 
-	int n = sizeof(arr) / sizeof(arr[0]);
-	cout << coverPoints(arr, n);
+		// Creating the Objects of Book class.
+		Book b1 = new Book("EffectiveJ Java", "Joshua Bloch");
+		Book b2 = new Book("Thinking in Java", "Bruce Eckel");
+		Book b3 = new Book("Java: The Complete Reference", "Herbert Schildt");
+
+		// Creating the list which contains the
+		// no. of books.
+		List<Book> books = new ArrayList<Book>();
+		books.add(b1);
+		books.add(b2);
+		books.add(b3);
+
+		Library library = new Library(books);
+		
+		List<Book> bks = library.getTotalBooksInLibrary();
+		for(Book bk : bks){
+
+			System.out.println("Title : " + bk.title + " and "
+			+" Author : " + bk.author);
+		}
+	}
 }
