@@ -1,68 +1,40 @@
-// Java program to illustrate
-// the concept of Composition
-import java.io.*;
-import java.util.*;
+// C++ program to implement recursive Binary Search
+#include <bits/stdc++.h>
+using namespace std;
 
-// class book
-class Book
+// A iterative binary search function. It returns
+// location of x in given array arr[l..r] if present,
+// otherwise -1
+int binarySearch(int arr[], int l, int r, int x)
 {
+	while (l <= r) {
+		int m = l + (r - l) / 2;
 
-	public String title;
-	public String author;
+		// Check if x is present at mid
+		if (arr[m] == x)
+			return m;
 
-	Book(String title, String author)
-	{
+		// If x greater, ignore left half
+		if (arr[m] < x)
+			l = m + 1;
 
-		this.title = title;
-		this.author = author;
+		// If x is smaller, ignore right half
+		else
+			r = m - 1;
 	}
+
+	// if we reach here, then element was
+	// not present
+	return -1;
 }
 
-// Libary class contains
-// list of books.
-class Library
+int main(void)
 {
-
-	// reference to refer to list of books.
-	private final List<Book> books;
-
-	Library (List<Book> books)
-	{
-		this.books = books;
-	}
-
-	public List<Book> getTotalBooksInLibrary(){
-
-	return books;
-	}
-
-}
-
-// main method
-class GFG
-{
-	public static void main (String[] args)
-	{
-
-		// Creating the Objects of Book class.
-		Book b1 = new Book("EffectiveJ Java", "Joshua Bloch");
-		Book b2 = new Book("Thinking in Java", "Bruce Eckel");
-		Book b3 = new Book("Java: The Complete Reference", "Herbert Schildt");
-
-		// Creating the list which contains the
-		// no. of books.
-		List<Book> books = new ArrayList<Book>();
-		books.add(b1);
-		books.add(b2);
-		books.add(b3);
-
-		Library library = new Library(books);
-		
-		List<Book> bks = library.getTotalBooksInLibrary();
-		for(Book bk : bks){
-
-			System.out.println("Title : " + bk.title + " and "
-			+" Author : " + bk.author);
-		}
-	}
+	int arr[] = { 2, 3, 4, 10, 40 };
+	int x = 10;
+	int n = sizeof(arr) / sizeof(arr[0]);
+	int result = binarySearch(arr, 0, n - 1, x);
+	(result == -1) ? cout << "Element is not present in array"
+				: cout << "Element is present at index " << result;
+	return 0;
 }

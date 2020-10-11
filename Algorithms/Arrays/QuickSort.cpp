@@ -1,4 +1,5 @@
-/* C++ implementation of QuickSort */
+// Quick Sort is always preferred over Merge Sort as the latter uses O(n) of auxillary space complexity as compared to Quick Sort.
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -10,11 +11,6 @@ void swap(int* a, int* b)
 	*b = t;
 }
 
-/* This function takes last element as pivot, places
-the pivot element at its correct position in sorted
-array, and places all smaller (smaller than pivot)
-to left of pivot and all greater elements to right
-of pivot */
 int partition (int arr[], int low, int high)
 {
 	int pivot = arr[high]; // pivot
@@ -33,11 +29,7 @@ int partition (int arr[], int low, int high)
 	return (i + 1);
 }
 
-/* The main function that implements QuickSort
-arr[] --> Array to be sorted,
-low --> Starting index,
-high --> Ending index */
-void quickSort(int arr[], int low, int high)
+void quickSort(int arr[], int low, int high) 
 {
 	if (low < high)
 	{
@@ -61,7 +53,6 @@ void printArray(int arr[], int size)
 	cout << endl;
 }
 
-// Driver Code
 int main()
 {
 	int arr[] = {10, 7, 8, 9, 1, 5};
@@ -71,5 +62,3 @@ int main()
 	printArray(arr, n);
 	return 0;
 }
-
-// This code is contributed by rathbhupendra

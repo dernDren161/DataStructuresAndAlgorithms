@@ -24,6 +24,8 @@ void removeLoop(Node* head)
     // This code is for when the loop directly starts from the last node to the very first node in the LinkedList
     if(slow == head){
 
+      // This is the case when there is no gap in between the slow and fast pointers.
+
         while(slow -> next != head){
             slow = slow -> next;
         }

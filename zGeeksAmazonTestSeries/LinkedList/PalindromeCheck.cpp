@@ -13,5 +13,5 @@ bool call(Node** l, Node* r){
 
 bool isPalindrome(Node *head)
 {
-   return call(&head,head);
+   return call(&head,head);  // &head means here -> a pointer to another pointer
 }

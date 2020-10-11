@@ -2,7 +2,7 @@
 using namespace std;
 typedef long long ll;
 
-// Problem Link: from Hackerearth teory on BitMaking
+// Problem Link: from Hackerearth theory on BitMaking
 
 void call(char arr[], int num){
 
@@ -18,6 +18,8 @@ void call(char arr[], int num){
 
 int main(){
 
+  // char[] is equivalent to declaring a string as: string
+  
   char arr[] = "abc";
   call(arr,3);
   return 0;

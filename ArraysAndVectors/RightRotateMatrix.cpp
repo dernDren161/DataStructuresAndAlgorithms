@@ -6,6 +6,7 @@ void Solution::rotate(vector<vector<int> > &A) {
 
     // First find the transpose of the given matrix
 
+    // This is my standard solution for matrix rotation
     int x = 0;
     int y = 0;
     int n = A.size();
@@ -21,7 +22,7 @@ void Solution::rotate(vector<vector<int> > &A) {
         x++;
         y++;
     }
- 
+
     // Now reverse the matrix elements for Right Rotate
 
     int l = 0;

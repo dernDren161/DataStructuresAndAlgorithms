@@ -32,7 +32,7 @@ int maxsize(struct node* root)
   int b = 0;
 
   a = maxsize(root -> left);
-  a = a + 1;
+  a = a + 1;  // observe closely : this line adds for the root node count
   b = maxsize(root -> right);
   a = a + b;
 
