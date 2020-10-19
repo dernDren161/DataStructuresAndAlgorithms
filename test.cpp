@@ -1,33 +1,27 @@
-struct compare {
-	bool operator()(
-		 Node* a,  Node* b)
-	{
-		return a->data > b->data;
-	}
-};
+public class Solution {
+    public int findDuplicate(int[] nums) {
+        if (nums == null || nums.length <= 1) {
+            return -1;
+        }
 
-Node * mergeKLists(Node *arr[], int N)
-{
-       priority_queue<Node*,vector<Node*>,compare> qs;
+    int slow = 0;
+    int fast = 0;
+    int finder = 0;
 
-       for(int i=0;i<N;i++){
-           if(arr[i] != NULL) qs.push(arr[i]);
-       }
+    while (true)
+    {
+        slow = nums[slow];
+        fast = nums[nums[fast]];
 
-       Node* dummy = new Node(0);
-       Node* last = dummy;
-
-       while(!qs.empty()){
-           Node* curr = qs.top();
-           qs.pop();
-
-           last -> next = curr;
-           last = last -> next;
-
-           if(curr->next != NULL){
-               qs.push(curr -> next);
-           }
-       }
-
-       return dummy -> next;
+        if (slow == fast)
+            break;
+    }
+    while (true)
+    {
+        slow = nums[slow];
+        finder = nums[finder];
+        if (slow == finder)
+            return slow;
+    }
+    }
 }

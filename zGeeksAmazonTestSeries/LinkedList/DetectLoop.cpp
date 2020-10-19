@@ -1,4 +1,5 @@
 // Problem Link: https://practice.geeksforgeeks.org/problems/detect-loop-in-linked-list/1/?company[]=Amazon&problemStatus=unsolved&problemType=functional&page=1&sortBy=submissions&query=company[]AmazonproblemStatusunsolvedproblemTypefunctionalpage1sortBysubmissions
+// Based on Floyd's hare and tortoise algorithm.
 
 bool detectLoop(Node* head)
 {

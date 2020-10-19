@@ -9,8 +9,8 @@
 // k ---- number of lists
 // N ---- total number of elemets in the final list
 // At max only k elements lie in the priority_queue
-// Sorting time is: log k for one instance
-// for total : O(N log k) --- which is its time complexity
+// Sorting time is: k * log k for one instance, which is with most of the merge and heap sorting algorithms
+// for total : O(N*k log k) --- which is its time complexity
 // space complexity: O(k), at max only k elements lie inside the priority_queue
 
 // To create the min-heap the 'compare' class is used as is
