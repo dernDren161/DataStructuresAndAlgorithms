@@ -1,4 +1,7 @@
 // Problem Link: https://practice.geeksforgeeks.org/problems/subset-sum-problem2643/1/?track=amazon-dynamic-programming&batchId=192
+// The question is same for: Subset sum problem
+// Also it is the same for: count the number of subsets sum problem -->> Hint: use '+' instead of '||' for counting the subsets.
+
 
 bool call(int a[], int n){
 
@@ -18,6 +21,8 @@ bool call(int a[], int n){
          n  | t| | | | |
             | t| | | | | // of utmost significance.
     */
+
+    // NOTE: From here on, it is the same code for the SUbset Sum problem as well and is the same as Target Sum problem as well.
 
     bool mat[n+1][s+1];
 

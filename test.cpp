@@ -1,27 +1,19 @@
-public class Solution {
-    public int findDuplicate(int[] nums) {
-        if (nums == null || nums.length <= 1) {
-            return -1;
+long long minimumNumberOfCoins(int coins[],int numberOfCoins,int value)
+{
+    long long int dp[value+1];
+    dp[0]=0;
+    for(int i=1;i<=value;i++){
+        dp[i]=INT_MAX;
+    for(int j=0;j<numberOfCoins;j++){
+        if(i-coins[j]>=0){
+            dp[i]=min(dp[i],dp[i-coins[j]]);
         }
-
-    int slow = 0;
-    int fast = 0;
-    int finder = 0;
-
-    while (true)
-    {
-        slow = nums[slow];
-        fast = nums[nums[fast]];
-
-        if (slow == fast)
-            break;
     }
-    while (true)
-    {
-        slow = nums[slow];
-        finder = nums[finder];
-        if (slow == finder)
-            return slow;
+    if(dp[i]!=INT_MAX)
+        dp[i]++;
     }
-    }
+    if(dp[value]!=INT_MAX)return dp[value];
+
+    else return -1;
+
 }
