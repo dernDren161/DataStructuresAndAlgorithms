@@ -6,6 +6,8 @@
 // Nearest smaller to right.
 // Nearest smaller to left.
 
+// NSR = (change of 'for' loop from) NSL
+
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long ll;
