@@ -3,7 +3,7 @@
 using namespace std;
 typedef long long ll;
 
-string call(string s1, string s2, ll a, ll b){
+string& call(string& s1, string& s2, ll a, ll b){
 
     ll mat[a+1][b+1];
 

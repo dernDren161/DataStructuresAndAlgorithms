@@ -2,6 +2,7 @@
 using namespace std;
 typedef long long ll;
 
+// Time complexity of a Binary Search is O(logn);
 int call(int l, int r, int x, int* arr){
 
     while(l<=r){
