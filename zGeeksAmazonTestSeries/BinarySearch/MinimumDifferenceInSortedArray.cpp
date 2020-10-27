@@ -1,3 +1,5 @@
+// Video Link: https://www.youtube.com/watch?v=3RhGdmoF_ac&list=PL_z_8CaSLPWeYfhtuKHj-9MpYb6XQJ_f2&index=15
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -21,11 +23,11 @@ int call(int arr[], int key){
 int main(){
   int key = 12;
   int arr[5] = {1,3,8,10,15};
-  int t = call(arr,key);
+  int t = call(arr,k);
   if(abs(arr[t]-key) < abs(arr[t+1]-key)) {
-    cout << "The difference is: " << abs(arr[t]-key);
+    cout << "The minimum difference is: " << abs(arr[t]-key);
     return 0;
   }
-  cout << "The difference is:" << abs(arr[t+1]-key);
+  cout << "The minimum difference is:" << abs(arr[t+1]-key);
   return 0;
 }
