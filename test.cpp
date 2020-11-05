@@ -1,31 +1,42 @@
-#include<bits/stdc++.h>
+// C/C++ program for recursive implementation
+// of Bubble sort
+#include <bits/stdc++.h>
 using namespace std;
 
-int call(int arr[], int key){
-    int l = 0;
-    int r = 4;
+// A function to implement bubble sort
+void bubbleSort(int arr[], int n)
+{
+	// Base case
+	if (n == 1)
+		return;
 
-    while(l<=r){
-      int m = l+(r-l)/2;
+	// One pass of bubble sort. After
+	// this pass, the largest element
+	// is moved (or bubbled) to end.
+	for (int i=0; i<n-1; i++)
+		if (arr[i] > arr[i+1])
+			swap(arr[i], arr[i+1]);
 
-      if(arr[m]==key) return m;
-      else if(arr[m] > key) r = m-1;
-      else if(arr[m] < key) l = m+1;
-    }
-
-    // till here 'l' and 'r' are interchanged.
-
-    return r;
+	// Largest element is fixed,
+	// recur for remaining array
+	bubbleSort(arr, n-1);
 }
 
-int main(){
-  int key = 12;
-  int arr[5] = {1,3,8,10,15};
-  int t = call(arr,key);
-  if(abs(arr[t]-key) < abs(arr[t+1]-key)) {
-    cout << "The difference is: " << abs(arr[t]-key);
-    return 0;
-  }
-  cout << "The difference is:" << abs(arr[t+1]-key);
-  return 0;
+/* Function to print an array */
+void printArray(int arr[], int n)
+{
+	for (int i=0; i < n; i++)
+		printf("%d ", arr[i]);
+	printf("\n");
+}
+
+// Driver program to test above functions
+int main()
+{
+	int arr[] = {64, 34, 25, 12, 22, 11, 90};
+	int n = sizeof(arr)/sizeof(arr[0]);
+	bubbleSort(arr, n);
+	printf("Sorted array : \n");
+	printArray(arr, n);
+	return 0;
 }
