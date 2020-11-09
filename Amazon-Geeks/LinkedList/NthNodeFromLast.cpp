@@ -1,4 +1,5 @@
-//. Problem Link: https://practice.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1/?company[]=Amazon&problemStatus=unsolved&problemType=functional&page=1&sortBy=submissions&query=company[]AmazonproblemStatusunsolvedproblemTypefunctionalpage1sortBysubmissions
+//. Problem Link:
+//https://practice.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1/?company[]=Amazon&problemStatus=unsolved&problemType=functional&page=1&sortBy=submissions&query=company[]AmazonproblemStatusunsolvedproblemTypefunctionalpage1sortBysubmissions
 
 int pass(Node* h, int n){
 
