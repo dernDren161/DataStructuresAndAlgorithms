@@ -1,4 +1,5 @@
-// Problem Link: https://practice.geeksforgeeks.org/problems/rotate-array-by-n-elements/0/?company[]=Amazon&problemStatus=unsolved&page=1&query=company[]AmazonproblemStatusunsolvedpage1
+// Problem Link:
+//https://practice.geeksforgeeks.org/problems/rotate-array-by-n-elements/0/?company[]=Amazon&problemStatus=unsolved&page=1&query=company[]AmazonproblemStatusunsolvedpage1
 
 #include<bits/stdc++.h>
 using namespace std;

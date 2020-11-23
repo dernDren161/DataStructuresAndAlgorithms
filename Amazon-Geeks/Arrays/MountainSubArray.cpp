@@ -1,5 +1,6 @@
 
-// Problem Link: https://practice.geeksforgeeks.org/problems/mountain-subarray-problem/1/?track=amazon-arrays&batchId=192
+// Problem Link:
+//https://practice.geeksforgeeks.org/problems/mountain-subarray-problem/1/?track=amazon-arrays&batchId=192
 
 vector<bool> processQueries(int a[], int n, vector<pair<int, int>> &queries,
                             int q) {

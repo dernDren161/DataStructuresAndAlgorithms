@@ -1,4 +1,5 @@
-// Problem Link: https://practice.geeksforgeeks.org/problems/merge-k-sorted-linked-lists/1/?company[]=Amazon&problemStatus=unsolved&problemType=functional&difficulty[]=1&page=1&query=company[]AmazonproblemStatusunsolvedproblemTypefunctionaldifficulty[]1page1
+// Problem Link:
+//https://practice.geeksforgeeks.org/problems/merge-k-sorted-linked-lists/1/?company[]=Amazon&problemStatus=unsolved&problemType=functional&difficulty[]=1&page=1&query=company[]AmazonproblemStatusunsolvedproblemTypefunctionaldifficulty[]1page1
 
 // 1 -> 4 -> 5
 // 1 -> 3 -> 4
@@ -18,8 +19,19 @@
 // ( y, x) -- where x is the top element
 // so obviously: y should be greater than x.
 
+
+// Important information:   5 -> 6 -> 7
+//                          4 -> 5 -> 6
+//													1 -> 2 -> 3
+// The output would be:     1 -> 2 -> 3 -> 4 -> 5 -> 5 -> 6 -> 6 -> 7
+
+// Conclusion: No matter the order of the linked lists, Just individuals lists should be sorted
+// If the individual elements in the list are sorted then that is the only requiring codition of this question
+// Instead if the list order are jumbled w.r.t eachother then that really does not matter at all.
+// This is an important condideration to be taken into account.
+
 struct compare {
-	bool operator()(
+	bool operator()( // operator overloading
 		struct Node* a, struct Node* b)
 	{
 		return a->data > b->data;
@@ -29,7 +41,7 @@ struct compare {
 Node * mergeKLists(Node *arr[], int N)
 {
        priority_queue<Node*,vector<Node*>,compare> qs;
-compare
+
        for(int i=0;i<N;i++){
            if(arr[i] != NULL) qs.push(arr[i]);
        }

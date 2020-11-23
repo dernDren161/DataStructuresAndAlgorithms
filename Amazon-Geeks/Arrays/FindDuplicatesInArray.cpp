@@ -1,4 +1,5 @@
-// Problem Link: https://practice.geeksforgeeks.org/problems/find-duplicates-in-an-array/1/?track=amazon-arrays&batchId=192
+// Problem Link:
+//https://practice.geeksforgeeks.org/problems/find-duplicates-in-an-array/1/?track=amazon-arrays&batchId=192
 
 vector<int> duplicates(int a[], int n) {
 

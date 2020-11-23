@@ -1,4 +1,5 @@
-// Problem Link: https://practice.geeksforgeeks.org/problems/coin-change2448/1#
+// Problem Link:
+//https://practice.geeksforgeeks.org/problems/coin-change2448/1#
 
 class Solution
 {
@@ -7,6 +8,19 @@ class Solution
 
         long long int mat[m+1][n+1];
 
+        /*  if (n == 0)
+        return 1;
+
+    // If n is less than 0 then no  
+    // solution exists
+    if (n < 0)
+        return 0;
+
+    // If there are no coins and n
+    // is greater than 0, then no
+    // solution exist
+    if (m <=0 && n >= 1)
+        return 0; */
         for(long long int i = 0;i<n+1;i++) mat[0][i] = 0;
         for(long long int i = 1;i<m+1;i++) mat[i][0] = 1;
 

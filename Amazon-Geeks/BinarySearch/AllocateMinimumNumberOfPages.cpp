@@ -1,4 +1,5 @@
-// Problem Link: https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages/0#
+// Problem Link:
+//https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages/0#
 // Video Link: https://www.youtube.com/watch?v=2JSQIhPcHQg&list=PL_z_8CaSLPWeYfhtuKHj-9MpYb6XQJ_f2&index=21
 
 // NOTE: Related to 'Painter Partition problem'

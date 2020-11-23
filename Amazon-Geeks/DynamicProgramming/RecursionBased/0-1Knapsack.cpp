@@ -32,5 +32,3 @@ int main()
 	cout << knapSack(W, wt, val, n);
 	return 0;
 }
-
-// This code is contributed by rathbhupendra

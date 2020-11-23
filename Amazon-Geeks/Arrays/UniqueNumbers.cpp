@@ -1,4 +1,5 @@
-// Problem Link: https://practice.geeksforgeeks.org/problems/unique-numbers3019/1/?company[]=Amazon&problemStatus=unsolved&problemType=functional&page=1&query=company[]AmazonproblemStatusunsolvedproblemTypefunctionalpage1
+// Problem Link:
+//https://practice.geeksforgeeks.org/problems/unique-numbers3019/1/?company[]=Amazon&problemStatus=unsolved&problemType=functional&page=1&query=company[]AmazonproblemStatusunsolvedproblemTypefunctionalpage1
 
 class Solution
 {

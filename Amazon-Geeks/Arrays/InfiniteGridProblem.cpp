@@ -1,7 +1,8 @@
 // Important: The assumption made in this question is that the length taken through the hypotenuse is same as taken
 // through the x or y axes i.e 1 unit for a unit square grid
 
-// Problem Link: https://www.geeksforgeeks.org/minimum-steps-needed-to-cover-a-sequence-of-points-on-an-infinite-grid/
+// Problem Link:
+//https://www.geeksforgeeks.org/minimum-steps-needed-to-cover-a-sequence-of-points-on-an-infinite-grid/
 
 #include<bits/stdc++.h>
 using namespace std;

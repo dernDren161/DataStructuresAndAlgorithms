@@ -6,7 +6,7 @@ typedef long long ll;
 // Problem Link: https://practice.geeksforgeeks.org/problems/maximum-product-subarray/0
 // Very Nice Algorithm
 
-void call(ll num, vector<ll> &vs){
+ll call(ll num, vector<ll> &vs){
     ll m = vs[0];
     ll localMax = vs[0];
     ll localMin = vs[0];
@@ -23,7 +23,7 @@ void call(ll num, vector<ll> &vs){
       m = max(m,localMax);
 
     }
-    cout << m << endl;
+    return m;
 }
 
 int main(){
@@ -36,7 +36,7 @@ int main(){
         for(ll i=0;i<num;i++){
             cin >> vs[i];
         }
-        call(num,vs);
+      call(num,vs); 
     }
     return 0;
 

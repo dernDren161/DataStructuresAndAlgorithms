@@ -1,6 +1,7 @@
 // Function problem
 
-// Problem Link: https://practice.geeksforgeeks.org/problems/max-sum-path-in-two-arrays/1/?track=amazon-arrays&batchId=192
+// Problem Link:
+//https://practice.geeksforgeeks.org/problems/max-sum-path-in-two-arrays/1/?track=amazon-arrays&batchId=192
 
 // Problem Name: Maximum Sum path in two arrays
 

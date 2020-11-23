@@ -2,6 +2,9 @@
 
 void removeLoop(Node* head)
 {
+
+    if(head == NULL || head->next == NULL) return;
+
     Node* slow;
     Node* fast;
 

@@ -13,6 +13,12 @@ bool call(int a[], int n){
 
     int temp = s/2;
 
+    /* This is important: when the sum is 0 then it is true as an array of let's say 1,2,3,4 can surely have sum 0 if none of them are taken so hence true
+    Base case for this recursive code is:
+    if(sum == 0) return true;
+    if(n == 0) return false;
+    */
+
     // find temp if it can be made a subset in the array.
     /*
                  s

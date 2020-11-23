@@ -1,4 +1,5 @@
-// Problem Link: https://practice.geeksforgeeks.org/problems/merge-k-sorted-arrays/1/?company[]=Amazon&problemStatus=unsolved&problemType=functional&difficulty[]=1&page=1&query=company[]AmazonproblemStatusunsolvedproblemTypefunctionaldifficulty[]1page1
+ // Problem Link:
+ //https://practice.geeksforgeeks.org/problems/merge-k-sorted-arrays/1/?company[]=Amazon&problemStatus=unsolved&problemType=functional&difficulty[]=1&page=1&query=company[]AmazonproblemStatusunsolvedproblemTypefunctionaldifficulty[]1page1
 
 // For priority queue, vector<int> is a default container and greater<> is a comparator.
 // Why vector<int> while declaring a Heap?

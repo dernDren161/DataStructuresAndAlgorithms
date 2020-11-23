@@ -1,6 +1,7 @@
 // Functioanl Program
 
-// Problem Link: https://practice.geeksforgeeks.org/problems/remove-duplicates-in-small-prime-array/1/?track=amazon-arrays&batchId=192
+// Problem Link:
+//https://practice.geeksforgeeks.org/problems/remove-duplicates-in-small-prime-array/1/?track=amazon-arrays&batchId=192
 
 vector<int> removeDuplicate(vector<int>& arr, int n)
 {
@@ -12,6 +13,6 @@ vector<int> removeDuplicate(vector<int>& arr, int n)
            vs.push_back(arr[i]);
        }
    }
-    
+
     return vs;
 }

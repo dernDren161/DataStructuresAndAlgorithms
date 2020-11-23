@@ -12,10 +12,10 @@ int call(int prices[], int length[], int n, int weight){
 
   if(n <= 0) return 0;
 
-  if(weight <= length[n-1]){
+  if(weight >= length[n-1]){
     return max(prices[n-1] + call(prices,length,n,weight-length[n-1]), call(prices,length,n-1,weight));
   } else{
-    return call(prices,lenght,n-1,weight);
+    return call(prices,length,n-1,weight);
   }
 }
 

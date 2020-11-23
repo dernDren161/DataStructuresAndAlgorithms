@@ -1,4 +1,5 @@
-// Problem Link: https://practice.geeksforgeeks.org/problems/occurences-of-2-as-a-digit/1/?company[]=Amazon&problemStatus=unsolved&problemType=functional&page=1&query=company[]AmazonproblemStatusunsolvedproblemTypefunctionalpage1
+// Problem Link:
+//https://practice.geeksforgeeks.org/problems/occurences-of-2-as-a-digit/1/?company[]=Amazon&problemStatus=unsolved&problemType=functional&page=1&query=company[]AmazonproblemStatusunsolvedproblemTypefunctionalpage1
 
 long long int call(long long int x){
 
@@ -23,6 +24,6 @@ long long int numberOf2sinRange(long long int number)
 
         c += call(i);
     }
-    
+
     return c;
 }

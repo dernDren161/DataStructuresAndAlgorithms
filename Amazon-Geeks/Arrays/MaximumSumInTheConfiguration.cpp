@@ -1,6 +1,7 @@
 // Problem Difficulty: Medium (4)
 
-// Problem Link: https://practice.geeksforgeeks.org/problems/max-sum-in-the-configuration/1/?track=amazon-arrays&batchId=192
+// Problem Link:
+//https://practice.geeksforgeeks.org/problems/max-sum-in-the-configuration/1/?track=amazon-arrays&batchId=192
 int max_sum(int A[],int N)
 {
     int sum = 0;

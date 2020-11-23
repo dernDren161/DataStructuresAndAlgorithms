@@ -4,6 +4,7 @@
 bool detectLoop(Node* head)
 {
 
+   // This should be a common code check for all the Linked List problems
     if(head == NULL || head -> next == NULL) return false;
 
     Node* slow;
