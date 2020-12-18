@@ -10,6 +10,10 @@ ll c[maxn];
 //set 'maxn' to a much lower value to avoid memory issues.
 
 //Problem Link: https://www.hackerearth.com/practice/algorithms/graphs/breadth-first-search/practice-problems/algorithm/social-networking-graph/description/
+
+// This question can be solved using the same langugage techniques as being used in the 'Monk and the Island' question
+// i.e the same way of finding the level of the respective nodes
+
 void call(ll st, ll fi){
   c[st] = 0;
   queue<ll> q;

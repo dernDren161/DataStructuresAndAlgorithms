@@ -21,6 +21,8 @@ typedef long long ll;
 // So trade-offs exist
 
 
+// !!!! cur is initialized thrice, first Right, then Left and then finally Right (Right -> Left -> Right)
+
 class Node{
 public:
   int data;

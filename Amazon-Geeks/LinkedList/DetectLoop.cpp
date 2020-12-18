@@ -17,6 +17,15 @@ bool detectLoop(Node* head)
     slow = slow -> next;
     fast = fast -> next -> next;
 
+    /*
+    Can also write:
+
+    slow = head;
+    fast = fast -> next;
+
+    ... Just that fast should be one step ahead to slow while starting off.
+    */
+
     while(fast && fast -> next){
 
         if(fast == slow) break;

@@ -1,6 +1,7 @@
 // Problem Link:
 //https://practice.geeksforgeeks.org/problems/subarray-with-given-sum-1587115621/0/?track=amazon-arrays&batchId=192
 
+// This question is only based for non-negative numbers as inputs.
 vector<int> subarraySum(int arr[], int n, int s){
 
     int a = 0;

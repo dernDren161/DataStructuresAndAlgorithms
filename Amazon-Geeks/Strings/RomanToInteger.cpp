@@ -42,7 +42,7 @@ int romanToDecimal(string &str) {
                 res = res + call(str[i+1]) - call(str[i]);
                 i++;  // extra addition
             }
-        }else{
+        }else{  // This condition is for the single digit numbers
             res = res + call(str[i]);
         }
     }

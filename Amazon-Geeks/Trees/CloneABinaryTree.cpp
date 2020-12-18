@@ -2,6 +2,8 @@
 
 // This function is required to clone the random pointers as well
 // Extra step that needed the use of maps which makes the question a medium type one.
+
+// Same as that of 'Cloning a LinkedList' question.
 Node* call2(Node* root, Node* clonedNode, map<Node*,Node*> &m){
 
     if(root == NULL || clonedNode == NULL) return NULL;

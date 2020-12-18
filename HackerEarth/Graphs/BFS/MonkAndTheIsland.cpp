@@ -6,6 +6,7 @@ typedef long long ll;
 
 void bfss(vector<ll> &visited, vector<ll> vs[],ll x, ll node){
   ll ans = 0;
+  // pair -> level, node
   queue<pair<ll,ll>> q;
   visited[node] = true;
   q.push(make_pair(0,node));

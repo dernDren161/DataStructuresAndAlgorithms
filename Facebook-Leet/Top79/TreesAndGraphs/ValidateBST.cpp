@@ -1,6 +1,8 @@
-// Problem Link: https://practice.geeksforgeeks.org/problems/check-for-bst/1/?company[]=Amazon&problemStatus=unsolved&problemType=functional&page=1&sortBy=submissions&query=company[]AmazonproblemStatusunsolvedproblemTypefunctionalpage1sortBysubmissions
+// Problem Link: https://leetcode.com/explore/interview/card/facebook/52/trees-and-graphs/266/
 
 // Given a Binary tree check whether it is a BST or not.
+
+// This code does not work in leetcode, some integer overflow isssues, but ignore it
 
 int call(Node* root, int min, int max){
 
