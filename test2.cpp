@@ -1,25 +1,20 @@
 class Solution {
 public:
-    // Helper function doing actual work
-    int maxPathSumHelper(TreeNode* root,int &maxSum)
-    {
-        if (!root)
-            return 0;
-        // For both, Left and Right subtree, first get the sum
-		//If its less than 0, then assign 0 as value of respective subtree
-        int leftVal = max(maxPathSumHelper(root->left, maxSum),0);
-        int rightVal = max(maxPathSumHelper(root->right, maxSum),0);
-
-		//Update maxSum if current node node can return maxSum Path
-        maxSum = max (maxSum, root->val + leftVal+ rightVal);
-
-
-		//Return the max value of path of either left or right subtree
-        return (root->val + max(leftVal, rightVal));
+    vector<vector<int>> subsets(vector<int>& nums) {
+        vector<vector<int>> power_set;
+        vector<int> set;
+        power_set_gen(power_set, set, 0, nums);
+        power_set.push_back(set);
+        return power_set;
     }
-    int maxPathSum(TreeNode* root) {
-        int maxSum = INT_MIN;
-        maxPathSumHelper(root,maxSum);
-        return maxSum;
+private:
+    void power_set_gen(vector<vector<int>>& power_set, vector<int> set, int index, vector<int> nums) {
+        if (index == nums.size()) return;
+
+        set.push_back(nums[index]);
+        power_set.push_back(set);
+        power_set_gen(power_set, set, index + 1, nums);
+        set.pop_back();
+        power_set_gen(power_set, set, index + 1, nums);
     }
 };
