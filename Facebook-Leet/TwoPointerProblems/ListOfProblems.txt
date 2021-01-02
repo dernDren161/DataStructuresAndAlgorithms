@@ -1,0 +1,9 @@
+List of Problems that are of this type:
+
+1) Remove Duplicates from Sorted Array
+2) Two Sum II - Input array is sorted
+3) Reverse Words in a String II
+4) Rotate Array
+5) Valid Palindrome
+6) Container With Most Water
+7) Product of Array Except Self

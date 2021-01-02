@@ -4,7 +4,7 @@ class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
 
-         vector<vector<int>> res;
+        vector<vector<int>> res;
         int n=nums.size();
         if(n==0)
             return {}; // NOTE: this is how you return an empty vector.

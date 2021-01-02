@@ -7,6 +7,8 @@ typedef long long ll;
 ll call(ll arr[], ll n){
 
     // We need to find Nearest Smaller Right and Nearest Smaller Left from 'arr'
+    // width = (NSR-NSL-1);
+    // area = width * (arr[i])
 
     vector<ll> vs1; //stores indices
     vector<ll> vs2;

@@ -5,6 +5,9 @@ public:
 
     vector<string> res;
 
+// NOTE: here elements are not passed by reference, so as to maintain the values of 'x' and 'prefix' in each
+// individual recursive calls in the function
+
     void call(vector<string> c, string digits, int x, string prefix){
 
         if(x >= digits.length()){
