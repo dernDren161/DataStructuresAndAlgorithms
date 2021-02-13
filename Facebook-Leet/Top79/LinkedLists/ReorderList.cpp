@@ -53,7 +53,8 @@ public:
         h2 = pre;
 
         ListNode* dummy = new ListNode();
-        ListNode* temp = dummy; // dummy is always right
+        ListNode* temp = new ListNode();
+        dummy = temp; // dummy is always left
 
         while(h1!=NULL || h2!=NULL){
 

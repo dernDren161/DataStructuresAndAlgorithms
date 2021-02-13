@@ -1,72 +1,26 @@
-import java.util.*;
-public class OccurencesOfAnagram {
-public static void main(String[] args) {
-
-	  String s = "aabaabaaa";
-		String ptr = "aaba";
-
-		int k = ptr.length();
-
-		int i=0,j=0;
-
-		HashMap<Character,Integer> mp = new HashMap<>();
-
-		for(int m=0;m<k;m++)
-		{
-		    char c = ptr.charAt(m);
-
-		    if(mp.containsKey(c))
-		    {
-		        mp.put(c,mp.get(c)+1);
-		    }
-		    else{
-		    mp.put(c,1);
-		    }
-		}
-		int count = mp.size();
-	    int ans = 0;
-	    while(j<s.length())
-	    {
-	        char sc = s.charAt(j);
-	        if(mp.containsKey(sc))
-	        {
-	            mp.put(sc,mp.get(sc)-1);
-
-	            if(mp.get(sc) == 0)
-	            {
-	                count--;
-	            }
-	        }
-
-	        if(j-i+1<k)
-	        {
-	            j++;
-	        }
-	        else if(j-i+1==k)
-	        {
-	            if(count==0)
-	            {
-	                ans++;
-	                System.out.println(s.substring(i,j+1));
-	            }
-
-	            if(mp.containsKey(s.charAt(i)))
-	            {
-	                mp.put(s.charAt(i),mp.get(s.charAt(i))+1);
-
-	                if(mp.get(s.charAt(i))==1)
-	                {
-	                    count++;
-	                }
-	            }
-	            i++;
-	            j++;
-	        }
-
-
-
-	    }
-
-	    System.out.println(ans);
-	}
+int longest_unique_substring_length_II(const string& str) {
+  unordered_map<char, int> mp;
+  int max_len = 0;
+  int left = 0, right = 0;
+  int k;
+  while (right < str.size()) {
+    ++mp[str[right]];
+    k = (right - left + 1);
+    if (mp.size() == k) {
+      max_len = max(max_len, k);
+    } else {
+      while (mp.size() < k) {
+        char ch = str[left];
+        --mp[ch];
+        if (mp[ch] == 0) mp.erase(ch);
+        left++;
+        k--;  // increasing left meaning window size is shrinked.
+      }
+      if (mp.size() == k) {
+        max_len = max(max_len, k);
+      }
+    }
+    right++;
+  }
+  return max_len;
 }

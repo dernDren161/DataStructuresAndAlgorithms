@@ -54,6 +54,7 @@ Node * mergeKLists(Node *arr[], int N)
 					// important work of 'curr' here was to make a new node in every iteration
 					// whereas the work of 'last' is to knit these newly formed nodes with eachother
 
+
            Node* curr = qs.top();
            qs.pop();
 

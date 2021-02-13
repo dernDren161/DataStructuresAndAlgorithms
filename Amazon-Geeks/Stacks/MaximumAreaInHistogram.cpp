@@ -31,7 +31,7 @@ ll call(ll arr[], ll n){
 
      // find NSR
      for(ll i=n-1;i>=0;i--){
-        if(st2.empty()) vs2.push_back(n);
+        if(st2.empty()) vs2.push_back(n);  //NOTE: This is important as 'n' is taken here.
         else if(st2.size()>0 && st2.top().first < arr[i]){
             vs2.push_back(st2.top().second);
         }else{ // st.top() > arr[i]
