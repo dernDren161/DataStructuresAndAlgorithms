@@ -1,5 +1,5 @@
 // Problem Link: https://practice.geeksforgeeks.org/problems/stock-span-problem/0#
-// Just a variation of Next Greater to right
+// Just a variation of Next Greater to left
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -15,7 +15,7 @@ vector<ll> call(ll arr[], ll n){
         if(st.empty()) vs.push_back(-1);
         else if(st.size()>0 && st.top().first>arr[i]){
             vs.push_back(st.top().second);
-        }else if(st.size()>0 && st.top().first<=arr[i]){
+        }else if(st.size()>0 && st.top().first<=arr[i]){//sliding window problem aditya verma
             while(st.size()>0 && st.top().first<=arr[i]) st.pop();
             if(st.empty()) vs.push_back(-2);
             else vs.push_back(st.top().second);

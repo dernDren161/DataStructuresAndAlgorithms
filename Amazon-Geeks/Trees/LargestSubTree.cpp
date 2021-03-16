@@ -1,3 +1,5 @@
+// Problem Link: https://www.geeksforgeeks.org/largest-sub-tree-having-equal-no-of-1s-and-0s/
+
 // C++ implementation of the approach
 #include <iostream>
 using namespace std;
@@ -49,7 +51,7 @@ return a;
 // adding the root nodes of each subtree
 int sum_tree(struct node* root)
 {
-  if(root != NULL){
+  if(root != NULLmaxSize){
     if(root -> data == 0){
       root -> data = -1;
     }

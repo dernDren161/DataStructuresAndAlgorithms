@@ -25,7 +25,7 @@ void rotate(vector<vector<int> >& matrix)
         int i = 0;
         while(i<n){
             swap(matrix[l][i],matrix[r][i]);
-            i++;
+            i++;      
         }
         l++;
         r--;

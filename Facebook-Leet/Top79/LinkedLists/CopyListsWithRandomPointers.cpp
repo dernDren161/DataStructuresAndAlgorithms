@@ -1,4 +1,6 @@
 // Problem Link: https://leetcode.com/explore/interview/card/facebook/6/linked-list/3020/
+// NOTE: Hint is @OC, i.e original node(key) and cloned node(value)
+
 
 /*
 // Definition for a Node.

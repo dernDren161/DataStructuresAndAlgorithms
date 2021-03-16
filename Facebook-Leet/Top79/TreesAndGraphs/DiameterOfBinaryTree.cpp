@@ -21,11 +21,12 @@ class Solution {
         int l = call(r->left,res);
         int ri = call(r->right,res);
 
-        int temp = max(l,ri) + 1;
+        int temp = max(l,ri) + 1; // passes through the root node.
         int ans = max(temp,l+ri+1);
 
         res = max(res,ans);
 
+        // NOTE: Very important point to be noted.
         return temp;
     }
 public:

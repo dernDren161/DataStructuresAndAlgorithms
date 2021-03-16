@@ -22,7 +22,6 @@ public:
 
         if(root -> left== NULL && root -> right == NULL) return;
 
-
         if(root -> left != NULL){
         flatten(root -> left);
 
