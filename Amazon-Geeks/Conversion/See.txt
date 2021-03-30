@@ -1,0 +1,12 @@
+For the conversions.
+
+1) Inorder and Postorder to Tree:
+      Take the last element of the Postorder and find in Inorder and take (*pI) as 'n-1'. This is normal
+
+2) Preorder and Postorder to Tree:
+      Take the first element of the Preorder and find 0th element in Postorder.(Only change is:)
+      node -> left = call(pre,post,l,index,pI); // {ONLY THIS LINE IS CHANGEd}
+      node -> right = call(pre,post,index+1,r,pI);
+
+3) Inorder and Preorder to Tree:
+      Only change here would be that there is no need of an additional (if(l==r)return node;) before finding the index.

@@ -3,6 +3,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// NOTE: The string array is like a 2D matrix
+ 
 string call(int n, string arr[]){
 
     string result = "";

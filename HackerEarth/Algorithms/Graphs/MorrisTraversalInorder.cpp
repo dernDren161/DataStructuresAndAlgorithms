@@ -17,7 +17,7 @@ typedef long long ll;
 
 // conclusion.
 // Morris' time complexity is almost/near to double that of inorder but
-// size here is king as Morris' auxillary time complexity is O(1)
+// size here is king as Morris' auxillary Space complexity is O(1)
 // So trade-offs exist
 
 

@@ -1,5 +1,6 @@
 // Problem Link:
 //https://practice.geeksforgeeks.org/problems/check-if-linked-list-is-pallindrome/1/?company[]=Amazon&problemStatus=unsolved&problemType=functional&page=1&sortBy=submissions&query=company[]AmazonproblemStatusunsolvedproblemTypefunctionalpage1sortBysubmissions
+// Remember - 6 lines of code.
 
 bool call(Node** l, Node* r){
 
