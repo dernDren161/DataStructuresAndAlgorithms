@@ -1,6 +1,13 @@
 // Problem Link: https://practice.geeksforgeeks.org/problems/cutted-segments1642/1/?track=amazon-dynamic-programming&batchId=192#
 // Unlike the Rod cutting problem, here we need to amaximize the number of cuts and not the values.
 
+
+// This is a type of 'Min Coin change' problem.
+// Use the same code instead of the one used in this module.
+// Look for the code in another file.
+// Two changes that must be done are: use max instead of the min
+// Use the 0/1 Knapsack approach instead of the unbounded one.
+
 int maximizeTheCuts(int n, int x, int y, int z)
 {
 

@@ -6,9 +6,9 @@ bool call(vector<int> adj[], int n, int i, bool* cross, bool* truth){
   cross[i] = true;
 
   for(int x : adj[i]){
-      if(cross[x])
+      if(cross[x])// this is the basic, if this 'x' is visited already return true
       return true;
-      if(!truth[x] && call(adj,n,x,cross,truth))
+      if(!truth[x] && call(adj,n,x,cross,truth))// even though it's not visited but its subordintes are visited then pass true
       return true;
   }
 

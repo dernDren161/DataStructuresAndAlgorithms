@@ -23,7 +23,7 @@ int remAnagram(string str1, string str2)
          auto btr = m2.find(c);
          auto ptr = m1.find(c);
 
-         if(btr != m 2.end()){
+         if(btr != m2.end()){
              btr -> second--;
              ptr -> second--;
              if(btr -> second == 0) m2.erase(btr);

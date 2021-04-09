@@ -1,6 +1,7 @@
 
 // Problem Link:
 //https://practice.geeksforgeeks.org/problems/mountain-subarray-problem/1/?track=amazon-arrays&batchId=192
+// @MI (for Mountain store Index)
 
 vector<bool> processQueries(int a[], int n, vector<pair<int, int>> &queries,
                             int q) {

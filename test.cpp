@@ -1,97 +1,92 @@
-// C++ program for diagnoal
-// traversal of Binary Tree
-#include <bits/stdc++.h>
+#include <iostream>
+#include <string>
 using namespace std;
 
-// Tree node
-struct Node
+// Trie supports lowercase English characters `a – z`.
+// So, the character size is 26.
+#define CHAR_SIZE 26
+
+// Data structure to store a Trie node
+struct Trie
 {
-	int data;
-	Node *left, *right;
+    string key;        // set when the node is a leaf node
+    Trie* character[CHAR_SIZE];
+
+    // Constructor
+    Trie()
+    {
+        for (int i = 0; i < CHAR_SIZE; i++) {
+            character[i] = nullptr;
+        }
+    }
 };
 
-/* root - root of the binary tree
-d - distance of current line from rightmost
-		-topmost slope.
-diagonalPrint - multimap to store Diagonal
-				elements (Passed by Reference) */
-void diagonalPrintUtil(Node* root, int d,
-				map<int, vector<int>> &diagonalPrint)
+// Iterative function to insert a string into a Trie
+void insert(Trie* &head, string const &str)
 {
-	// Base case
-	if (!root)
-		return;
+    // start from the root node
+    Trie* curr = head;
 
-	// Store all nodes of same
-	// line together as a vector
-	diagonalPrint[d].push_back(root->data);
+    for (char ch: str)
+    {
+        // create a new node if the path doesn't exist
+        if (curr->character[ch - 'a'] == nullptr) {
+            curr->character[ch - 'a'] = new Trie();
+        }
 
-	// Increase the vertical
-	// distance if left child
-	diagonalPrintUtil(root->left,
-					d + 1, diagonalPrint);
+        // go to the next node
+        curr = curr->character[ch - 'a'];
+    }
 
-	// Vertical distance remains
-	// same for right child
-	diagonalPrintUtil(root->right,
-						d, diagonalPrint);
+    // store key in the leaf node
+    curr->key = str;
 }
 
-// Print diagonal traversal
-// of given binary tree
-void diagonalPrint(Node* root)
+// Function to perform preorder traversal on a given Trie
+bool preorder(Trie* const curr, Trie const *root)
 {
+    // return if Trie is empty
+    if (curr == nullptr) {
+        return false;
+    }
 
-	// create a map of vectors
-	// to store Diagonal elements
-	map<int, vector<int> > diagonalPrint;
-	diagonalPrintUtil(root, 0, diagonalPrint);
+    for (int i = 0; i < CHAR_SIZE; i++)
+    {
+        if (curr->character[i] != nullptr)
+        {
+            // if the current node is a leaf, print the key
+            if (curr->character[i]->key.length() > 0) {
+                cout << curr->character[i]->key << endl;
+            }
 
-	cout << "Diagonal Traversal of binary tree : \n";
-	for (auto it :diagonalPrint)
-	{
-		vector<int> v=it.second;
-		for(auto it:v)
-		cout<<it<<" ";
-		cout<<endl;
-	}
+            preorder(curr->character[i], root);
+        }
+    }
 }
 
-// Utility method to create a new node
-Node* newNode(int data)
-{
-	Node* node = new Node;
-	node->data = data;
-	node->left = node->right = NULL;
-	return node;
-}
-
-// Driver program
 int main()
 {
-	Node* root = newNode(8);
-	root->left = newNode(3);
-	root->right = newNode(10);
-	root->left->left = newNode(1);
-	root->left->right = newNode(6);
-	root->right->right = newNode(14);
-	root->right->right->left = newNode(13);
-	root->left->right->left = newNode(4);
-	root->left->right->right = newNode(7);
+    Trie* head = new Trie();
 
-	/* Node* root = newNode(1);
-		root->left = newNode(2);
-		root->right = newNode(3);
-		root->left->left = newNode(9);
-		root->left->right = newNode(6);
-		root->right->left = newNode(4);
-		root->right->right = newNode(5);
-		root->right->left->right = newNode(7);
-		root->right->left->left = newNode(12);
-		root->left->right->left = newNode(11);
-		root->left->left->right = newNode(10);*/
+    // given set of keys
+    string dict[] =
+    {
+        "lexicographic", "sorting", "of", "a", "set", "of", "keys", "can",
+        "be", "accomplished", "with", "a", "simple", "trie", "based",
+        "algorithm", "we", "insert", "all", "keys", "in", "a", "trie",
+        "output", "all", "keys", "in", "the", "trie", "by", "means", "of",
+        "preorder", "traversal", "which", "results", "in", "output", "that",
+        "is", "in", "lexicographically", "increasing", "order", "preorder",
+        "traversal", "is", "a", "kind", "of", "depth", "first", "traversal"
+    };
 
-	diagonalPrint(root);
+    // insert all keys of a dictionary into a Trie
+    for (string word: dict) {
+        insert(head, word);
+    }
 
-	return 0;
+    // print keys in lexicographic order
+    preorder(head, head);
+
+    return 0;
 }

@@ -30,6 +30,7 @@ int maxsize(struct node* root)
 {
   if(root == NULL) return 0;
 
+	// NOTE: Look closely this assignment part is the same in both the functions.
   int a = 0;
   int b = 0;
 

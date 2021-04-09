@@ -6,6 +6,11 @@
 // root -> is the current node, this advances as the node traversal progresses
 // head -> is set to the first node of the CDLL, its value is set once but it's left value changes with each increasing iteration
 
+
+// Trick:
+// Consists of 12 lines of code with three variables(root,prev and head)
+// @Photographic memory try and relate
+
 void call(Node* root, Node*& prev, Node*& head){
 
     if(root == NULL) return;
