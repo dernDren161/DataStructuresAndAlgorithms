@@ -1,92 +1,39 @@
-#include <iostream>
-#include <string>
-using namespace std;
+class LRUCache {
+    list<int> recent;
+    unordered_map<int, pair<int, list<int>:: iterator>> cache; //{key, {value, iterator to key in recent}}
+    unsigned int capacity;
+public:
+    LRUCache(int capacity) {
+        this->capacity = capacity;
+    }
 
-// Trie supports lowercase English characters `a – z`.
-// So, the character size is 26.
-#define CHAR_SIZE 26
+    void moveForward(int key) {
+        recent.erase(cache[key].second);
+        recent.push_front(key);
+        cache[key].second = recent.begin();
+    }
 
-// Data structure to store a Trie node
-struct Trie
-{
-    string key;        // set when the node is a leaf node
-    Trie* character[CHAR_SIZE];
-
-    // Constructor
-    Trie()
-    {
-        for (int i = 0; i < CHAR_SIZE; i++) {
-            character[i] = nullptr;
+    int get(int key) {
+        if(cache.find(key) != cache.end()) {
+            moveForward(key);
+            return cache[key].first;
         }
+        return -1;
+    }
+
+    void put(int key, int value) {
+       if(cache.find(key) != cache.end()) {
+           moveForward(key);
+           cache[key].first = value;
+       } else if(cache.size() == this->capacity) {
+           recent.push_front(key);
+           int toDelete = recent.back();
+           recent.pop_back();
+           cache.erase(toDelete);
+           cache.insert({key, make_pair(value, recent.begin())});
+       } else if(cache.size() < this->capacity) {
+           recent.push_front(key);
+           cache.insert({key, make_pair(value, recent.begin())});
+       }
     }
 };
-
-// Iterative function to insert a string into a Trie
-void insert(Trie* &head, string const &str)
-{
-    // start from the root node
-    Trie* curr = head;
-
-    for (char ch: str)
-    {
-        // create a new node if the path doesn't exist
-        if (curr->character[ch - 'a'] == nullptr) {
-            curr->character[ch - 'a'] = new Trie();
-        }
-
-        // go to the next node
-        curr = curr->character[ch - 'a'];
-    }
-
-    // store key in the leaf node
-    curr->key = str;
-}
-
-// Function to perform preorder traversal on a given Trie
-bool preorder(Trie* const curr, Trie const *root)
-{
-    // return if Trie is empty
-    if (curr == nullptr) {
-        return false;
-    }
-
-    for (int i = 0; i < CHAR_SIZE; i++)
-    {
-        if (curr->character[i] != nullptr)
-        {
-            // if the current node is a leaf, print the key
-            if (curr->character[i]->key.length() > 0) {
-                cout << curr->character[i]->key << endl;
-            }
-
-            preorder(curr->character[i], root);
-        }
-    }
-}
-
-int main()
-{
-    Trie* head = new Trie();
-
-    // given set of keys
-    string dict[] =
-    {
-        "lexicographic", "sorting", "of", "a", "set", "of", "keys", "can",
-        "be", "accomplished", "with", "a", "simple", "trie", "based",
-        "algorithm", "we", "insert", "all", "keys", "in", "a", "trie",
-        "output", "all", "keys", "in", "the", "trie", "by", "means", "of",
-        "preorder", "traversal", "which", "results", "in", "output", "that",
-        "is", "in", "lexicographically", "increasing", "order", "preorder",
-        "traversal", "is", "a", "kind", "of", "depth", "first", "traversal"
-    };
-
-    // insert all keys of a dictionary into a Trie
-    for (string word: dict) {
-        insert(head, word);
-    }
-
-    // print keys in lexicographic order
-    preorder(head, head);
-
-    return 0;
-}
