@@ -20,6 +20,7 @@ public:
 
         if(root == NULL) return;
 
+        // NOTE: Important base case, Note it duly !!
         if(root -> left== NULL && root -> right == NULL) return;
 
         if(root -> left != NULL){

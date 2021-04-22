@@ -23,6 +23,9 @@ int maxIndexDiff(int arr[], int n)
     int x = 0;
     int y = 0;
 
+    // If it says minimum index then simply start the loop from
+    // x >= 0 && y>=0
+    // and make other necessary changes.
     while(x < n && y< n){
 
         // less[x] and more[y] roughly correspond to A[i] and A[j]

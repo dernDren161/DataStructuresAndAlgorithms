@@ -1,5 +1,7 @@
 // Problem Link: https://leetcode.com/problems/word-break/
 
+// Similar to that of 'RestoreArray' question in the 'Hard' section
+
 class Solution {
 public:
     bool wordBreak(string s, vector<string>& wordDict) {

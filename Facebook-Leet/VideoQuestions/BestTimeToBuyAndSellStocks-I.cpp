@@ -8,30 +8,35 @@ public:
 
         int n = prices.size();
 
-        if(n==0 || n==1) return 0;
+        int less[n];
+        int more[n];
 
-        int temp = prices[1]-prices[0]; // as the preogression is: from smaller to larger
+        less[0] = prices[0];
+        more[n-1] = prices[n-1];
 
-        int x;
-
-        int m =temp;
-
-        // 'temp' is designed to store the maximum value
-
-        for(int i=1;i<n-1;i++){
-
-            x = prices[i+1]-prices[i];
-
-            if(temp > 0){
-                temp = temp + x;
-            }else{
-                temp = x; // hence 'temp' was designed to store the maximum value.
-            }
-
-         m = max(m,temp);
+        for(int i=1;i<n;i++){
+            less[i] = min(less[i-1],prices[i]);
         }
 
-        if(m<0) return 0; // means in descending order
+        for(int i=n-2;i>=0;i--){
+            more[i] = max(more[i+1],prices[i]);
+        }
+
+        int m =0;
+
+        // All same, except for the line below.
+        /*
+        int x,y=0;
+        while(x<n && y<n){
+        if(more[y]>=less[x]){
+          m = max(m,y-x);
+          y++;
+        }else x++;
+      }
+        */
+        for(int i=0;i<n;i++){
+            m = max(m,more[i]-less[i]);
+        }
 
         return m;
     }

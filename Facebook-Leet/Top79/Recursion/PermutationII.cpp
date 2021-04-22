@@ -20,11 +20,12 @@ public:
         // because of the following line the first element in the 2D vector is "ABC" only.
 
         // and also this avoids the duplication of the same combination as well.
-        
+
+        // NOTE: This map declaration is unique to each recursive call, meaning, one 'm' instance remains intact till the (n-1) occurence inside the loop.
         map<int,int> m;
         for(int i=x;i<sz;i++){
 
-            ++m[nums[i]];
+            ++m[nums[i]];// NOTE: Here we use 'i' instead of 'x' goes on to prove that the created map is just for the instances inside the loop and not in the individual recursion calls.
 
             if(m[nums[i]] == 1){
                 swap(nums[x],nums[i]);

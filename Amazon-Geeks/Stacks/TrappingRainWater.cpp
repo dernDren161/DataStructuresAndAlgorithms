@@ -3,6 +3,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// NOTE: The element 'l[i]' represents the block hight to its left on which its' water holding capacity above depends.
+// Similar is the case for r[i], but to the right side ofc.
 
 int call(int arr[], int n){
 
