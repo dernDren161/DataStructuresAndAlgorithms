@@ -40,7 +40,7 @@ vector <int> max_of_subarrays(int *arr, int n, int k){
             j++;
 
             // What if the ith element is the maximum for window k ?
-
+            // example: 3,2,1,2 for k = 3;
             while(!pq.empty() && m[pq.top()]==0) pq.pop();
         }
     }

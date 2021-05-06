@@ -10,6 +10,7 @@ void preprocessing(ll m, string& t, string& p){
   lps[0] = 0;
   while(i<m){
     if(p[i]==p[l]){
+
       l++;
       lps[i] = l;
       i++;
