@@ -26,7 +26,7 @@ class SingletonLazy{
 
     for(int i=0;i<5;i++){
       SingletonLazy s = new SingletonLazy();
-      System.out.println("Return: " + s);
+      System.out.println("Return: " + s.callLazy());
     }
   }
 }

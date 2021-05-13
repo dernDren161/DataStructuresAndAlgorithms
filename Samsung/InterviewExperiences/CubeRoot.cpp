@@ -1,5 +1,7 @@
-// C++ program to find cubic root of a number
-// using Binary Search
+// NOTE: Do not go with this exact solution
+// SIMPLY perform a Binary Search instead
+
+
 #include <bits/stdc++.h>
 using namespace std;
 

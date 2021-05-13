@@ -25,9 +25,10 @@ long long int minimumNumberOfCoins(int coins[],int numberOfCoins,int value)
                             t[i][j]=0;
                         j=0;
 
+                        // See the changes here.
                         for(i=1;j<value+1;j++)
-                        {   if(value%coins[0]==0)
-                                t[i][j]=value/coins[i];
+                        {   if(j%coins[0]==0)
+                                t[i][j]=j/coins[0];
                             else
                                 t[i][j]=INT_MAX-1;
                         }

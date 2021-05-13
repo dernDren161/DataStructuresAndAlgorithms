@@ -1,0 +1,6 @@
+This pattern was asked in one of the interviews.
+
+Look the 'Java Migration' section in the Java section for reference for this particular design pattern.
+
+Learn the Lazy Singleton pattern and not the Eayly pattern.
+As Lazy instantiation is more economical and smoother.
