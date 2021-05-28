@@ -29,7 +29,7 @@ void sort012(int a[], int arr_size)
 
 		// If the element is 2
 		case 2:
-			swap(a[mid], a[hi--]);
+			swap(a[mid], a[hi--]);  // NOTE: IMPORTANT PART DO NOT MISS THIS !!!
 			break;
 		}
 	}

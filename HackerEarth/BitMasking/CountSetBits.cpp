@@ -11,7 +11,8 @@ int call(int myNumber, int left, int right){
     int count = 0;
 
     while(send){
-
+        // This particular algorithm is called: Brian Kernighan’s Algorithm
+        // Time complexity of this algo is: O(logn)
         send = send & (send-1);
         count++;
     }

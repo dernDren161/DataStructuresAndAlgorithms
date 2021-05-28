@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-// If N elements are there with maximum of N length, then
+// If N elements are there with maximum of M length, then
 // Worst case time complexity is:  O(N*M)
 // Worst case space complexity is: O(N*M)
 

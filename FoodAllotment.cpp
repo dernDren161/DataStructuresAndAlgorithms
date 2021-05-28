@@ -1,58 +1,70 @@
-#include<bits/stdc++.h>
+#include <iostream>
+#include <vector>
+#include <utility>
+#include <algorithm>
+
 using namespace std;
-int w;
-map<int,string> messMap;
+const int MAX = 1e4 + 5;
+int id[MAX], nodes, edges;
+pair <long long, pair<int, int> > p[MAX];
 
-int optimisedMenu(int satisfaction[], int expense[], int messBudget, int days){
-
-    int mat[days+1][messBudget+1];
-
-    for(int i=0;i<messBudget+1;i++) mat[0][i] = 0;
-
-    for(int i=1;i<days+1;i++) mat[i][0] = 0;
-
-    for(int i=1;i<days+1;i++){
-      for(int j=1;j<messBudget+1;j++){
-
-        if(j<expense[i-1]){
-          mat[i][j] = mat[i-1][j];
-        }else{
-          mat[i][j] = max(satisfaction[i-1]+mat[i-1][j-expense[i-1]],mat[i-1][j]);
-        }
-      }
-    }
-
-
-
-    int res = mat[days][messBudget];
-
-    w = messBudget;
-
-    for (int i = days; i > 0 && res > 0; i--) {
-       if (res == mat[i - 1][w])
-          continue;
-       else {
-          auto p = messMap.find(expense[i-1]);
-          cout << "The Vegetable is--- " << p -> second << " of price--- " << expense[i-1] << endl;
-          res = res - satisfaction[i - 1];
-          w = w - expense[i - 1];
-       }
-    }
-
-    return mat[days][messBudget];
+void initialize()
+{
+    for(int i = 0;i < MAX;++i)
+        id[i] = i;
 }
 
-int main(){
-  int messBudget = 500;
-  int satisfaction[7] = {50,80,20,30,40,20,30};
-  int expense[7] = {101,121,70,122,102,110,90};
-  string vegetables[7] = {"Cabbage","Cauliflower","Nutrela","Beans","Matar Paneer","Palak Paneer","Spinach"};
+int root(int x)
+{
+    while(id[x] != x)
+    {
+        id[x] = id[id[x]];
+        x = id[x];
+    }
+    return x;
+}
 
-  for(int i=0;i<7;i++){
-    messMap[expense[i]] = vegetables[i];
-  }
+void union1(int x, int y)
+{
+    int p = root(x);
+    int q = root(y);
+    id[p] = id[q];
+}
 
-  int ans = optimisedMenu(satisfaction,expense,messBudget,7);
-  cout << "The maximum satisfaction that can be achieved with the given mess budget is: " << ans << endl;
-  return 0;
+long long kruskal(pair<long long, pair<int, int> > p[])
+{
+    int x, y;
+    long long cost, minimumCost = 0;
+    for(int i = 0;i < edges;++i)
+    {
+        // Selecting edges one by one in increasing order from the beginning
+        x = p[i].second.first;
+        y = p[i].second.second;
+        cost = p[i].first;
+        // Check if the selected edge is creating a cycle or not
+        if(root(x) != root(y))
+        {
+            minimumCost += cost;
+            union1(x, y);
+        }
+    }
+    return minimumCost;
+}
+
+int main()
+{
+    int x, y;
+    long long weight, cost, minimumCost;
+    initialize();
+    cin >> nodes >> edges;
+    for(int i = 0;i < edges;++i)
+    {
+        cin >> x >> y >> weight;
+        p[i] = make_pair(weight, make_pair(x, y));
+    }
+    // Sort the edges in the ascending order
+    sort(p, p + edges);
+    minimumCost = kruskal(p);
+    cout << minimumCost << endl;
+    return 0;
 }
