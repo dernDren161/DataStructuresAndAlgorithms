@@ -1,8 +1,10 @@
 // C++ program to encode and decode a string using
 // Huffman Coding.
 
-// NOTE: The time complexity of decoding is: O(n log n)
-
+/*
+NOTE: Time complexity of decoding is: O(n log k) where, n-length of string, k-total nodes in the Huffman tree
+ Space complexity is: O(n) for the decoded string and O(k) for the table/Huffman tree.
+*/
 #include <bits/stdc++.h>
 #define MAX_TREE_HT 256
 using namespace std;

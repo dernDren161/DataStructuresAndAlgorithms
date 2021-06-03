@@ -1,4 +1,6 @@
 // Problem Link: https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
+// NOTE: This is basically the Tree variation of the problem 'Social Networking Graph' in the HackerEarth section of Graphs.
+// These are some important questions for the understanding of the 'Breadth First Search' agorithm. 
 
 class Solution {
 
@@ -33,6 +35,13 @@ public:
             int x = q.size();
 
             for(int i=0;i<x;i++){
+
+                /*NOTE: Very important
+                        In Tree BFS, notice that front() and the pop() operation is done inside the for loop
+                        Unlike the graph where we do such stuffs "OUTSIDE" the for loop.
+                        Because in Graphs we know how many nodes are connected to a node beforehand
+                        But in the case of trees we need to explore hence these operations are done inside the for loop in the case of Trees.
+                */
 
                 TreeNode* f = q.front();
                 q.pop();

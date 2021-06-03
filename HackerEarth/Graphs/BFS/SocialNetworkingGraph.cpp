@@ -26,7 +26,13 @@ void call(ll st, ll fi){
       if(!truth[i]){
         truth[i] = 1;
         c[i] = c[temp] + 1;
-        if(c[i]==fi) cnt++;
+        if(c[i]==fi) cnt++;         /* if we want to print all the paths then we can do like:
+                                        vs.push_back(destination);
+                                        while(parent[destination]!=-1){
+                                        vs.push_back(parent[destination]);
+                                        destination = parent[destination];
+                                      }
+                                        */
         q.push(i);
       }
     }

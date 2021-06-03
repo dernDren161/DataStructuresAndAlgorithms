@@ -23,7 +23,7 @@ class Solution{
                     if(m[S[i]]==0) m.erase(S[i]);
                     i++;
                 }
-                if(m.size()==j-i+1){  // NOTE: Unnecessary step
+                if(m.size()==j-i+1){  // NOTE: Unnecessary step but still do it.
                     maxi=max(maxi,j-i+1);
                 }
                j++;

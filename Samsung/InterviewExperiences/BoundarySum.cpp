@@ -2,11 +2,11 @@
 
 void callLeaves(Node* root, int& total){
   if(root){
-    callLeftLeaves(root->left,total);
+    callLeaves(root->left,total);
     if(root->left==NULL && root->right==NULL){
       total += root->data;
     }
-    callLeftLeaves(root->right,total);
+    callLeaves(root->right,total);
   }
 }
 void callRightBoundary(Node* root, int& total){

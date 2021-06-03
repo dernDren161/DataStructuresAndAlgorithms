@@ -3,10 +3,11 @@
 
 // In queue or DLL
 // ('FRONT',push_front())<---------->('REAR',pop())
+// MRU(f)<------->LRU(r)   (@ML)
 
 // Problem Link: https://leetcode.com/problems/lru-cache/
 class LRUCache{
-  list<int> recent; // doubly linked list with map
+  list<int> recent; // doubly linked list with map, just stores the keys(NOTE)
   //{key,{value,key iterator of the dll}}
   unordered_map<int,pair<int,list<int>:: iterator>> cache;
   int capacity;

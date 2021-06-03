@@ -21,7 +21,7 @@ bool callBFS(vector<int> adj[], int source, int destination, int v, bool visited
       if(!visited[adj[f][i]]){
         dist[adj[f][i]] = 1 + dist[f];
         visited[adj[f][i]] = true;
-        predes[adj[f][i]] = f;
+        predes[adj[f][i]] = f;  // NOTE: We here consider that the parent of the source is always -1, for later traversal purposes.
         qs.push(adj[f][i]);
       }
 
