@@ -12,11 +12,11 @@ void callLeaves(Node* root, int& total){
 void callRightBoundary(Node* root, int& total){
   if(root){
     if(root->right){
+      callRightBoundary(root->right,total);   // NOTE: This part is important first go the rightmost non-leaf and then start printing upwards.
       total += root->data;
-      callRightBoundary(root->right,total);
     }else if(root->left){
-      total += root->data;
       callRightBoundary(root->left,total);
+      total += root->data;
     }
   }
 }

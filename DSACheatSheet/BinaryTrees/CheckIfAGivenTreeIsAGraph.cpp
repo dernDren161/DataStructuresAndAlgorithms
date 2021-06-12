@@ -1,0 +1,4 @@
+/*
+  Just check if the undirected graph has a loop or not.
+  If there is a loop then it is not a tree
+*/

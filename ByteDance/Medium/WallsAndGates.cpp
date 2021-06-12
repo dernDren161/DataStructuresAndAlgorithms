@@ -33,13 +33,13 @@ public:
             int x = qs.front().first.first;
             int y = qs.front().first.second;
             int dist = qs.front().second;
-            rooms[x][y] = dist;
+            rooms[x][y] = dist;  // NOTE: Accessing the distance here
             qs.pop();
 
             for(int i=0;i<4;i++){
                 if(safe(x+r[i],y+c[i],n) && rooms[x+r[i]][y+c[i]]==2147483647 && truth[x+r[i]][y+c[i]]==false){
                     truth[x+r[i]][y+c[i]] = true;
-                    qs.push({{x+r[i],y+c[i]},dist+1});
+                    qs.push({{x+r[i],y+c[i]},dist+1}); // NOTE: Adding the distance here.
                 }
             }
         }
