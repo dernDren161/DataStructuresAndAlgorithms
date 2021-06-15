@@ -13,7 +13,7 @@ public:
 
 	    while(i<=k && j<m){
 	        if(arr1[i]<arr2[j])i++;
-	        else{
+	        else{  // NOTE: This condition also works for the arr1[i]==arr2[j]
 	            swap(arr2[j],arr1[k]);
 	            j++;
 	            k--;
