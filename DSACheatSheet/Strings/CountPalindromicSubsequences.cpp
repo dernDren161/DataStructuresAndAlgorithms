@@ -30,7 +30,7 @@ int countPS(int i,int j)
     }
 
     if(i==j)
-    return dp[1][j] = 1;
+    return dp[i][j] = 1;
 
     else if (str[i] == str[j])
         return dp[i][j] = countPS(i+1, j) +

@@ -32,6 +32,6 @@ public:
 
     double findMedian() {
         if(c%2!=0) return (double)(maxi.top());
-        return ((double)((maxi.top()+mini.top())/2.0));
+        return ((double)((maxi.top()+mini.top())/2.0));  // NOTE: Observe that we typecast the return type to a 'double'
     }
 };

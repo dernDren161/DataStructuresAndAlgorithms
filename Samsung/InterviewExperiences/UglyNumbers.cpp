@@ -2,6 +2,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// 1, 2, 3, 4, 5, 6, 8, 9, 10, 12, 15, …
+// Read as:
+// 1st ugly number is 1, second ugly number is 2 and so on....
+
 // Function to get the nth ugly number
 unsigned getNthUglyNo(unsigned n)
 {

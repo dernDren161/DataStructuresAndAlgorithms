@@ -13,7 +13,7 @@ bool isBipartite(int V, vector<int> adj[])
 	queue<pair<int, int> > q;
 
 
-	for (int i = 0; i < V; i++) {
+	for (int i = 0; i < V; i++) {  // NOTE: This for loop incase if the graph is disjoint then? It still can be bipartite.
 
 
 		if (col[i] == -1) {

@@ -28,7 +28,7 @@ public:
             ++m[nums[i]];// NOTE: Here we use 'i' instead of 'x' goes on to prove that the created map is just for the instances inside the loop and not in the individual recursion calls.
 
             if(m[nums[i]] == 1){
-                swap(nums[x],nums[i]);
+                swap(nums[x],nums[i]);  // NOTE: @ SPC
                 ans.push_back(nums[x]);
                 call(nums,x+1,sz);
                 ans.pop_back();

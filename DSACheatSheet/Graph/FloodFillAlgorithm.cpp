@@ -19,6 +19,9 @@ public:
         callDFS(i+1,j,image,c,row,col);
         callDFS(i,j-1,image,c,row,col);
         callDFS(i-1,j,image,c,row,col);
+
+        // NOTE: Observe that no Backtracking is needed here like that of the Rat in the Maze problem
+        // Not all problems need Backtracking
     }
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int newColor) {
 

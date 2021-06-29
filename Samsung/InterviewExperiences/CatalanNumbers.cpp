@@ -1,4 +1,6 @@
-
+// NOTE:Catalan number sequence
+// 1,1,2,5,14,42
+// Read as 0th,1st,2nd,3rd,4th.... Catalan numbers
 
 #include<iostream>
 using namespace std;
@@ -24,7 +26,7 @@ unsigned long int catalanDP(unsigned int n)
     for (int i=2; i<=n; i++)
     {
         catalan[i] = 0;
-        for (int j=0; j<i; j++)
+        for (int j=0; j<i; j++)  // NOTE: Goes till i-1 and not i
             catalan[i] += catalan[j] * catalan[i-j-1];
     }
 

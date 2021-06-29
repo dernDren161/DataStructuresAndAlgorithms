@@ -3,6 +3,8 @@
 //https://practice.geeksforgeeks.org/problems/mountain-subarray-problem/1/?track=amazon-arrays&batchId=192
 // @MI (for Mountain store Index)
 
+// NOTE: Important Link: https://leetcode.com/problems/valid-mountain-array/
+
 vector<bool> processQueries(int a[], int n, vector<pair<int, int>> &queries,
                             int q) {
     // code here

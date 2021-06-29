@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// NOTE: @ R-F
+
 struct QNode {
 	int data;
 	QNode* next;
