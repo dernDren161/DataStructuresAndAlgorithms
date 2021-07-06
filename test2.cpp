@@ -1,50 +1,39 @@
-class Solution {
-public:
-    int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst, int k) {
-       vector <vector<pair<int,int>>>v(n);
+// f<----->r
 
-        for(auto i : flights)
-        {
-            v[i[0]].push_back({i[1],i[2]});
-        }
+class LRU{
+	list<int> recent;
+	unordered_map<int,pair<int,list<int> :: iterator>> cache;
+	int c;
 
-        queue <pair<int,int>> q;
-        q.push({src,0});
+	LRU(int c){
+		this -> c = c;
+	}
 
-        int level = 0;
-        vector <int> dist(n,INT_MAX);
-        while(!q.empty())
-        {
-            int s = q.size();
-            while(s--)
-            {
-                pair<int,int> p = q.front();
-                q.pop();
+	void moveForward(int k){
+		recent.erase(cache[k].second);
+		recent.push_front(k);
+		cache[k].second = recent.begin();
+	}
 
-                int u = p.first;
-                int wt = p.second;
+	int get(int k){
+		if(cache.find(key)!= cache.end()){
+			moveForward(key);
+			return cache[k].first;
+		}
+	}
 
-                for(int i=0;i<v[u].size();i++)
-                {
-                    pair<int,int> tmp = v[u][i];
-
-                    int dest = tmp.first;
-                    int dest_wt = tmp.second;
-                    if(dist[dest] > wt + dest_wt)
-                    {
-                        dist[dest] = wt+dest_wt;
-                        q.push({dest,dist[dest]});
-                    }
-                }
-
-            }
-
-            level++;
-
-            if(level > k)
-                break;
-        }
-
-        return dist[dst] != INT_MAX ? dist[dst] : -1;
-    }
+	void put(int k, int v){
+			if(cache.find(key)!=cache.end()){
+				moveForward(key);
+				cache[k].first = v;
+			}else if(cache.size()==this->c){
+				int temp = recent.back();
+				recent.pop_back();
+				recent.push_front(k);
+				cache[k] = {k,make_pair(v,recent.begin())};
+			}else{
+				recent.push_front(key);
+				cache[k] = {}
+			}
+	}
 };

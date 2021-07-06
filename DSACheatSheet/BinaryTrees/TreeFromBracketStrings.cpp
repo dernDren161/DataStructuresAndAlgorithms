@@ -5,7 +5,7 @@ public:
          return NULL;
       string num = "";
       while (idx < s.size() && s[idx] != '(' && s[idx] != ')') {
-         num += s[idx];
+         num += s[idx];  // NOTE: For more than one digit numbers
          idx++;
       }
       TreeNode* node = new TreeNode(stoi(num));
