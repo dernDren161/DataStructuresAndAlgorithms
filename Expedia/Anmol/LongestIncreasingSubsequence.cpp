@@ -1,44 +1,44 @@
-// This question follows the 'Patience Sorting Algorithm'
-// The code does not give the correct result, but understand the concept.
-// Algorithm Link: https://leetcode.com/problems/longest-increasing-subsequence/discuss/74824/JavaPython-Binary-search-O(nlogn)-time-with-explanation
+// Problem Link: https://leetcode.com/problems/longest-increasing-subsequence/
 
-#include<bits/stdc++.h>
-using namespace std;
+class Solution {
+public:
+    int call(vector<int>dp, vector<int> nums, int x){
 
+        int l = 0;
+        int r = dp.size();
 
-int callBinarySearch(int arr[], int l, int r, int x, int dp[]){
-  while(l<=r){
-    int m = l + (r-l)/2;
+        while(l<=r){
+            int m = l + (r-l)/2;
 
-    if(dp[m]==x) return m;
-    else if(dp[m]<x) l = m+1;
-    else if(dp[m]>x) r=m-1;
-  }
-  return l; // returning l will align with the 'Patience Sorting Algorithm'.
-}
-int call(int arr[], int n, int dp[]){
+            // single element
+            if(dp.size()==1) return m;
 
-  for(int i=0;i<n;i++){
-    int p = callBinarySearch(arr,0,i,arr[i],dp);
-    dp[p] = arr[i];
-  }
+            // just two elements
+            if(l==m) return (dp[m]>=x)?m:m+1;
 
-}
-int main(){
-  int dp[6];
-  memset(dp,1000,6);
-  int arr[6]={50,3,10,7,40,80};
-  call(arr,6,dp);
-  int c = 0;
-  for(int i=0;i<6;i++){
-    if(dp[i]!= 1000){
-      c++;
+            if(dp[m-1]<x && x<=dp[m]) return m;
+
+            if(dp[m]>x) r = m-1;
+            else l = m+1;
+        }
+
+        return 0;
     }
-  }
-  cout << "The number of increasing subsequences are: " << c << endl;
-  cout << "The subsequent numbers are: " <<  endl;
-  for(int i=0;i<6;i++){
-    cout << dp[i] << endl;
-  }
-  return 0;
-}
+    int lengthOfLIS(vector<int>& nums) {
+
+        int n = nums.size();
+        vector<int> dp;
+
+        dp.push_back(nums[0]);
+
+        for(int i=1;i<n;i++){
+            if(nums[i]>dp[dp.size()-1])dp.push_back(nums[i]); // NOTE: Don't write nums[i]>=dp[n-1], as breaks for [7,7,7,7,7]
+            else{
+                int index = call(dp,nums,nums[i]);
+                dp[index] = nums[i];
+            }
+        }
+
+        return dp.size();
+    }
+};

@@ -20,7 +20,7 @@ class Solution
 
 
 
-        int truth[n+1][n+1];
+        int truth[n+1][n+1];    // NOTE: NOTICE THIS THING, ITS SIZE IS 'n+1' instead of 'n'
         memset(truth,0,sizeof(truth));
 
         while(!qs.empty()){

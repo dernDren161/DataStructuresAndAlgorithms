@@ -3,6 +3,7 @@
 void removeLoop(Node* head)
 {
 
+   // NOTE: This is a very important base case !!
     if(head == NULL || head->next == NULL) return;
 
     Node* slow;
@@ -23,6 +24,7 @@ void removeLoop(Node* head)
         fast = fast -> next -> next;
     }
 
+    if(slow!=fast) return; // NOTE: There is no loop;
     // Loop Removeal - 1
     // This code is for when the loop directly starts from the last node to the very first node in the LinkedList
     if(slow == head){

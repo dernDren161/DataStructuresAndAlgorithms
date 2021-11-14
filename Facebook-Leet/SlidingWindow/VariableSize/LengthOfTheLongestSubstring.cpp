@@ -1,4 +1,4 @@
-// Problem Link: https://practice.geeksforgeeks.org/problems/length-of-the-longest-substring3036/1
+ // Problem Link: https://practice.geeksforgeeks.org/problems/length-of-the-longest-substring3036/1
 
 class Solution{
     public:
@@ -20,7 +20,7 @@ class Solution{
 
                 while(m.size()<j-i+1){
                     m[S[i]]--;
-                    if(m[S[i]]==0) m.erase(S[i]);
+                    if(m[S[i]]==0) m.erase(S[i]); // NOTE: 2
                     i++;
                 }
                 if(m.size()==j-i+1){  // NOTE: Unnecessary step but still do it.

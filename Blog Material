@@ -1,0 +1,48 @@
+The industry always faces shortage of good ddevs. Now we've reached a time where complaining "Coding is hard" is just not accepted given the number of
+online resources we have at our finger tips. From Youtube videos, to ed tech seervices, to beautifully crafted questions in Online Judges. We
+simply do not have any scarcity, but still we lack to give our best. I genuinely believe that these many online resources are still under used. While some motiveted
+folks do use these services correctly most of the throng still has no better approach to using these services.
+
+Whatever be the facilities, coding is mostly done alone inside a room, which after a certain time becomes boring and we lose motivation and stop.
+Lets assume you are motivated enough to spend everday for coding but given the varied online judges you lose track of the number of questions you did from each of them,
+even so at the end of the day you cannot even remember every question you did that day. One day you do 10 questions the other day you do 8 then 6 then 4
+though you are motivated the sheer lack of this track across platforms you eventually slow down.
+Also if you cleared all the above hitches means you are a good student, and good Computer Science students revise problems often. The ALgorithms you used in a
+particular questions, some interesting questions that you might look again before your interviews or some dauntingly difficult one where the
+DS used were equally difficult. If you want to conquer this you copy the interested question code create a file locally inside your folder, mention the problem Link
+on top of the file, save it and push it or just keep it there. Uff a lot of effort for such a mundane task.
+
+What if?
+- A platform where you add your close friends that align to your goals and start coding with them daily?
+- You maintain streaks just like snapchat and your only aim is to maintain the streak with your friends, even after collge connect them with the one thing
+that both of you love, Coding.
+- Track what and how many questions you did across the internet to keep you on track.
+- And someting that automagically pulls your favourite questions into your local folder with a click of a button.
+
+This way you surely do a lot more questions with utmost consistency and fun !!
+
+
+I realised late the power of consistency in terms of learning programming.
+In my early fourth year of college I could realise that had I started doing computer programming questions(DSA),
+I would have already completed more than 300 questions which is basically the threshold above which you could
+start cracking FAANG companies also given the fact that the number of questions done is not that important than
+the actual understanding but just as to introduce the cardinality in this whole equation, we tend to count the number of questions, even great programmers
+estimate the number of questions they have solved just to check their pace, so no harm.
+
+Also when I backtrack to that time sometimes we get motivated and do >5 questions per day while the other times we slow down and eventually stop.
+I was one of those guys, started doing DSA questions on HackerRank enjoyed but the lack of motivation or maybe because I did it alone lost touch,
+and rather started getting into Open Source software dev where I could interact to a number of enthusiasts like me. This interaction made things interesting.
+While I lost touch to questions, I could see my friend next room doing such DSA questions with other friends, so i could see 3 of those guys coding together
+each night. I also went there sometimes but I was more interested into Open Source or maybe I was yet to clear my basics to be in that group.
+Also, another thing which I observed was that the whole programming scene was kind of very distributed, 10s of coding platforms like Leetcode, GFG,etc.
+Each platform is unique, like I did questions company specific questions from Leetcode, non conventional questions from Hacker earth and most commonly
+encountered interview questions from GFG. So it was kind of very distracting switching platforms, I also think that the very reason we are not concistent
+with this thing is the lack of our tracking capacity, like the number of questions done on a daily basis(can be from any platform), the commitment
+to do atleast n number of questions each day and tracking all the previously attempted questions.
+
+I remember me and my other friend used to be all pumped up one day that we'll master DSA in the next 6 months we did so for like 2 days and again
+we stat skipping the process, result low techniocal knowledge and lack of confidence.
+
+So, what if we could track all the questions we did across platforms, and something automatically tracks our questions, downloads questions which you feel are important
+and makes a file and arranges in your offline folder for revision later, and after a certain daily number of questions you maintain a streak with your
+chosen friends?

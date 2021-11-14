@@ -9,6 +9,8 @@
 // VARIATION - I
 
 // map ----> (sum,occurence count)
+
+// NOTE: THIS is applicable for the contiguous subarray
 class Solution {
 public:
     int subarraySum(vector<int>& nums, int k) {

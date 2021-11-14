@@ -9,7 +9,7 @@ class Solution {
 
 
 
-    void call(vector<int>& nums, int l, int r){
+    void call(vector<int> nums, int l, int r){
 
         if(l == r){
             res.push_back(temp);

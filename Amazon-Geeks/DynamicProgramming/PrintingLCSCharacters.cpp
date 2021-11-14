@@ -2,7 +2,35 @@
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long ll;
+/*
 
+  NOTE: Printing the Largest common substring is different than this one.
+
+  modifications:
+    int row,col;
+    int len = INT_MIN;
+
+    for(int i=1;i<a+1;i++){
+    for(int j=1;j<b+1;j++){
+      if(s[i-1]==t[j-1]){
+        mat[i][j] = 1+mat[i-1][j-1];
+        if(len<mat[i][j]){
+        len = mat[i][j];
+        row = i; col = j;
+      }
+    }
+  }
+  }
+  string result = "";
+
+    while(len--){
+      result = s[row-1]; // or can also do t[col-1] since both are equal
+      row--;
+      col--; // Just moving diagonally upwards
+  }
+
+  return result;
+*/
 string& call(string& s1, string& s2, ll a, ll b){
 
     ll mat[a+1][b+1];

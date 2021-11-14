@@ -1,39 +1,98 @@
-// f<----->r
 
-class LRU{
-	list<int> recent;
-	unordered_map<int,pair<int,list<int> :: iterator>> cache;
-	int c;
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
 
-	LRU(int c){
-		this -> c = c;
-	}
 
-	void moveForward(int k){
-		recent.erase(cache[k].second);
-		recent.push_front(k);
-		cache[k].second = recent.begin();
-	}
+public class MaxVowelsSubstring
+{
+  static boolean isVowel(char ch)
+  {
+    if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
+        return true;
+    return false;
+  }
 
-	int get(int k){
-		if(cache.find(key)!= cache.end()){
-			moveForward(key);
-			return cache[k].first;
-		}
-	}
+  static int maxVowelsInSubstring(String s,int k)
+  {
+    int countVowels=0;  //Maintains overall count of vowels
+    // Count vowels in First Window
+    for(int i=0;i<k;i++)
+    {
+        if(isVowel(s.charAt(i)))
+            countVowels++;
+    }
 
-	void put(int k, int v){
-			if(cache.find(key)!=cache.end()){
-				moveForward(key);
-				cache[k].first = v;
-			}else if(cache.size()==this->c){
-				int temp = recent.back();
-				recent.pop_back();
-				recent.push_front(k);
-				cache[k] = {k,make_pair(v,recent.begin())};
-			}else{
-				recent.push_front(key);
-				cache[k] = {}
-			}
-	}
-};
+    int maxVowels = 0;
+    // Update maxVowels for first window.
+    if(maxVowels< countVowels)
+        maxVowels = countVowels;
+
+    for(int i=k;i<s.length();i++)
+    {
+        if(isVowel(s.charAt(i)))          // check if current char is a vowel.
+            countVowels++;
+
+        if(isVowel(s.charAt(i-k)))      // check if starting of previous window was a vowel
+            countVowels--;
+
+        maxVowels = Math.max(maxVowels,countVowels);   // update maxVowels for each window.
+    }
+
+    return maxVowels;
+  }
+
+  public static void main(String args[])
+  {
+      String str = "java2blog";
+      int k = 3;
+      int result = maxVowelsInSubstring(str,k);
+
+      System.out.println("The Maximum Vowels present in the Substring of size "+k+" is : "+result);
+  }
+
+}

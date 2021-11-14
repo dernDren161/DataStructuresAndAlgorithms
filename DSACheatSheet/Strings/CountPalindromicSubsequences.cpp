@@ -2,6 +2,13 @@
 // T.C ---> O(n^2)
 // S.C ---> O(n^2)
 
+
+/*
+  NOTE: The memoization technique is used in the recent two ques, this one and the 'Wildcard pattern matching'
+  REMEMBER that with memoization we do not return anything like dp[m][n] but instead the direct output of the entire function
+  JUST Notice that we here directly return 'return countPS(0,n-1)' as the answer.
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 

@@ -51,7 +51,7 @@ int rotOranges(vector<vector<int> > &matrix, int R, int C)
      int two = qs.front().second;
 
      for(int i = 0;i<4;i++){
-
+              // NOTE: remember truth and matrix don'e take one and two but instead, one+r[i] and two+c[i]
               if((safe(one+r[i],two+c[i],R,C))&&(matrix[one+r[i]][two+c[i]] == 1) && !(truth[one+r[i]][two+c[i]])){
                 matrix[one+r[i]][two+c[i]] = 2;
                 qs.push(make_pair(one+r[i],two+c[i]));

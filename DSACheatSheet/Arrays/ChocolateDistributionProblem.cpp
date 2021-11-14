@@ -8,7 +8,7 @@ class Solution{
 
     sort(a.begin(),a.end());
 
-    for(long long i=0;i<=n-m;i++){
+    for(long long i=0;i<n-m+1;i++){ // NOTE: This is the sliding window technique
         mini = min(mini,a[m+i-1]-a[i]);
     }
 

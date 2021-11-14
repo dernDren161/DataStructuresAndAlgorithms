@@ -1,6 +1,6 @@
 // Problem Link: https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
 // NOTE: This is basically the Tree variation of the problem 'Social Networking Graph' in the HackerEarth section of Graphs.
-// These are some important questions for the understanding of the 'Breadth First Search' agorithm. 
+// These are some important questions for the understanding of the 'Breadth First Search' agorithm.
 
 class Solution {
 
@@ -28,6 +28,7 @@ public:
         queue<TreeNode*> q;
         q.push(target);
 
+        // NOTE: The use of this set is absolutely nexessary to avoid duplication in printing similar to that of 'bool truth[]'
         unordered_set<TreeNode*>s;
         s.insert(target);
 

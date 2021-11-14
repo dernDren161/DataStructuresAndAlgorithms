@@ -12,7 +12,7 @@ struct Node {
 };
 
 // Utility function to create a new node
-Node* newNode(int data);
+Node* newNode(int data);5q
 
 /* Prototypes for utility functions */
 int search(int arr[], int strt, int end, int value);

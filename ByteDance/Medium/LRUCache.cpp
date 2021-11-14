@@ -6,6 +6,16 @@
 // MRU(f)<------->LRU(r)   (@ML)
 
 // Problem Link: https://leetcode.com/problems/lru-cache/
+
+
+/*
+Code Lines:
+
+1) put - 2,5,2
+2) get - 2
+3) moveForward - 3
+
+*/
 class LRUCache{
   list<int> recent; // doubly linked list with map, just stores the keys(NOTE)
   //{key,{value,key iterator of the dll}}

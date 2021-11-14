@@ -38,7 +38,7 @@ bool isBipartite(int V, vector<int> adj[])
 						return 0;
 
 
-					if (col[j] == -1) {
+					if (col[j] == -1) {  // NOTE: IMP , we should necessarily check if it is negative or not.
 				col[j] = (c) ? 0 : 1;
 						q.push({ j, col[j] });
 					}

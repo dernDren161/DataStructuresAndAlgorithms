@@ -7,12 +7,15 @@
 // will give us the result:
 // 1 -> 1 -> 2 -> 3 -> 4 -> 4 -> 5 -> 6
 
-// k ---- number of lists
-// N ---- total number of elemets in the final list
-// At max only k elements lie in the priority_queue
-// Sorting time is: k * log k for one instance, which is with most of the merge and heap sorting algorithms
-// for total : O(N*k log k) --- which is its time complexity
-// space complexity: O(k), at max only k elements lie inside the priority_queue
+/*
+Complexity Analysis:
+
+Time Complexity: O(N * log k) or O(n * k * log k), where, ‘N’ is the total number of elements among all the linked lists, ‘k’ is the total number of lists, and ‘n’ is the size of each linked list.
+Insertion and deletion operation will be performed in min-heap for all N nodes.
+Insertion and deletion in a min-heap require log k time.
+Auxiliary Space: O(k).
+The priority queue will have atmost ‘k’ number of elements at any point of time, hence the additional space required for our algorithm is O(k).
+*/
 
 // To create the min-heap the 'compare' class is used as is
 // (    ) --  a queue

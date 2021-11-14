@@ -27,7 +27,7 @@ public:
             {
                 place+=upper_bound(matrix[i].begin(),matrix[i].end(),mid) -matrix[i].begin();
             }
-            if(place<desired)
+            if(place<desired) // @PHD - PLD
             {
                 min=mid+1;
             }
@@ -36,6 +36,7 @@ public:
                 max=mid;
             }
         }
+        // if the number is even then do (max+min)/2;
         return min;// NOTE: You can even return 'max' also as both 'min' and 'max' come to middle which is the answer.
     }
 };

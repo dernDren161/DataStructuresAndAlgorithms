@@ -26,7 +26,7 @@ int call(string s, int k){
         m = call(i,j,s);
 
 
-        if(m.size() < k) j++;
+        if(m.size() < k) j++; // NOTE: Note this variation
 
         else if(m.size() == k){
             maxi = max(maxi,j-i+1);

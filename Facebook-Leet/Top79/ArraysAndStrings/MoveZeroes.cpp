@@ -27,3 +27,23 @@ public:
         }
     }
 };
+
+
+// Problem Link: https://workat.tech/problem-solving/practice/remove-occurences
+int removeOccurences(vector<int> &A, int k) {
+	// add your logic here
+	int c = 0;
+	int x = 0;
+	for(int i=0;i<A.size();i++){
+		if(A[i]!=k){
+			A[x++] = A[i];
+			c++;
+		}
+	}
+
+	int n = A.size();
+	A.erase(A.begin()+c,A.end());
+
+	return c;
+
+}

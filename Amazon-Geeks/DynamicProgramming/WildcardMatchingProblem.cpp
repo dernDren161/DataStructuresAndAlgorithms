@@ -25,7 +25,7 @@ public:
             return dp[sIndex][pIndex] = call(s,p,sIndex-1,pIndex,dp) || call(s,p,sIndex,pIndex-1,dp);
         }
 
-        return dp[sIndex][pIndex] = 0;
+        return dp[sIndex][pIndex] = 0;  // NOTE: CONDITION FOR FALSE
     }
 
     bool isMatch(string s, string p) {

@@ -1,0 +1,25 @@
+
+1) The questions "K difference pair" is very important. (See in the Two Sums wala question)
+
+2) Detect a Loop in a Linked list base conditions are very important. (See in the AmazonGeeks section for that)
+
+3) Types of questions and their variations needed to be studied together.
+
+  1) -Longest Common Subsequence <<<<<<<<<<>>>>>>>>>> -Longest Common Substring + (both their printing techniques)
+  2) -Longest Palindromic Subsequence(LCS variation) <<<<<<<<<<>>>>>>>>>> -Longest Palindromic Substring(newer technique)
+  3) -Count Number of Palindromic Subsequences (DP question) <<<<<<<<<<>>>>>>>>> -Count Number of Palindromic Sustring (similar to L.P Substring question)
+  4) -Count No. of Palindromic partitions needed (MCM type, DP question) <<<<<>>>>> -Print all the Palindromic Partitions(like Permutation from WorkAtTech)
+  5) -Maximum Coin Change Problem(DP type) <<<<<<<<<<>>>>>>>>>> Combination Sum(I and II), from Amazon List
+
+
+4) Do these Array type questions together
+
+   1) Minimize Heights, Gas Station, Minimum number of Jumps,Frogs Cracking,
+   2) Sudoku Solver, Maximum Number in K swaps, Minimum number of Swaps to Sort, Generate Parenthesis.
+   3) Kadane's Algo, Kth Largest Contiguous Sum
+   4) Rotate List(Array) and Rotate List(Linked List), both in O(1) Space
+   5) Convert Sorted Array/Linked List to Binary Search tree.
+
+5) Rotate a non-square matrix
+6) Do the "TrainsAndPlatforms" question.
+7) Inorder Successor of a Node. (V.V.Imp)

@@ -11,6 +11,9 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+
+ // T.C: O(n)
+ 
 class Solution {
 
     // maximum number of node from the tree

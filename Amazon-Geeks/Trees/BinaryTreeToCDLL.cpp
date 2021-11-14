@@ -17,7 +17,8 @@ void call(Node* root, Node*& prev, Node*& head){
     // inorder traversal progression
     call(root->left,prev,head);
 
-
+    // @ r-l-p
+    // @ p-r-r
     root -> left = prev;
     if(prev){
         prev -> right = root;

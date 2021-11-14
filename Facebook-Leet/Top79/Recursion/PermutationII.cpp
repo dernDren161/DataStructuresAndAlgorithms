@@ -1,16 +1,18 @@
 // Problem Link: https://leetcode.com/explore/interview/card/facebook/53/recursion-3/293/
+// T.C: O(n*n!)
+// S.C(with the map): O(n*n!)
 
 class Solution {
 public:
 
-
-    vector<int> ans;
     vector<vector<int>> res;
 
-    void call(vector<int>& nums, int x, int sz){
+    //NOTE: Here neither x or sz is being passed by reference, but instead is being called through by value, important
+
+    void call(vector<int> nums, int x, int sz){
 
         if(x == sz){
-          res.push_back(ans);
+          res.push_back(nums);
             return;
         }
 
@@ -28,10 +30,8 @@ public:
             ++m[nums[i]];// NOTE: Here we use 'i' instead of 'x' goes on to prove that the created map is just for the instances inside the loop and not in the individual recursion calls.
 
             if(m[nums[i]] == 1){
-                swap(nums[x],nums[i]);  // NOTE: @ SPC
-                ans.push_back(nums[x]);
+                swap(nums[x],nums[i]);  // NOTE: @ SCS
                 call(nums,x+1,sz);
-                ans.pop_back();
                 swap(nums[x],nums[i]);
             }
         }
@@ -56,3 +56,28 @@ public:
         return res;
     }
 };
+
+//NOTE: SImilarly if the duplication is allowed, then
+
+void permute(string a, int x, int sz)
+{
+    // Base case
+    if (x == sz)
+        cout<<a<<endl;
+    else
+    {
+        // Permutations made
+        for (int i = x; i < sz; i++)
+        {
+
+            // Swapping done
+            swap(a[x], a[i]);
+
+            // Recursion called
+            permute(a, x+1, sz);
+
+            //backtrack
+            swap(a[x], a[i]);
+        }
+    }
+}
