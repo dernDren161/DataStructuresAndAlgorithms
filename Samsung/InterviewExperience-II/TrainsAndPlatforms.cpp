@@ -21,7 +21,6 @@ int minPlatforms(vector<Train*> &trains) {
 		}else if(a[i]>d[j]){
 			plat--; j++;
 		}
-
 		mini = max(mini,plat);
 	}
 

@@ -6,28 +6,29 @@
 
 class Solution {
 public:
-    vector<vector<int>> result;
+    vector<vector<int>> ans;
 
-    void callToCompute(vector<int>& candidates, int l, int r, int target,vector<int> ans, int sum){
+    void call(vector<int>&candidates, int target, int x, int sum,vector<int>&temp){
 
+        if(x>=candidates.size()) return;
+        if(sum>target) return;
         if(sum==target){
-            result.push_back(ans);
-            return;
+            ans.push_back(temp);
         }
 
-        if(l>=r || sum>target) return;
-
-        ans.push_back(candidates[l]);
-        callToCompute(candidates,l,r,target,ans,sum+candidates[l]);
-        ans.pop_back();
-        callToCompute(candidates,l+1,r,target,ans,sum); // NOTE: Do not add to sum here, sum is added only once.
+        for(int i=x;i<candidates.size();i++){
+            temp.push_back(candidates[i]);
+            call(candidates,target,i,sum+candidates[i],temp);
+            temp.pop_back();
+        }
     }
+
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
 
         int n = candidates.size();
-        vector<int> ans;
-        callToCompute(candidates,0,n,target,ans,0);
-
-        return result;
+        vector<int>temp;
+        ans.clear();
+        call(candidates,target,0,0,temp);
+        return ans;
     }
 };

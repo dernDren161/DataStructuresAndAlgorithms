@@ -1,6 +1,6 @@
 # DataStructuresAndAlgorithms
 
-A curated list of Technical Interview Questions spread across Online Judges like `hackerearth` and `geeksforgeeks`.
+A curated list of Technical Interview Questions spread across Online Judges like `hackerearth`,`geeksforgeeks`,'leetcode',etc.
 
 #### The repository includes:
 

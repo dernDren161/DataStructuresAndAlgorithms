@@ -5,7 +5,7 @@ public:
     int call(vector<int>dp, vector<int> nums, int x){
 
         int l = 0;
-        int r = dp.size();
+        int r = dp.size()-1;
 
         while(l<=r){
             int m = l + (r-l)/2;

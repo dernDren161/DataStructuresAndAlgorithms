@@ -6,7 +6,7 @@ void call(Node* root, int dist, int level, map<int,pair<int,int>> &m){
 
     auto p = m.find(dist);
 
-    if(p == m.end() || level >= m[dist].first){ // this '=' does nothing but defines the ordering, and can be changed as per the requirement as well.
+    if(p == m.end() || level >= m[dist].first){ // NOTE: This is extremely important.
         m[dist] = {level, root -> data};
     }
 

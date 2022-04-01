@@ -24,6 +24,7 @@ public:
 
         return slow;
     }
+
     TreeNode* callToCompute(ListNode* l, ListNode* r, TreeNode* root){
 
         if(l==r) return root;
@@ -38,6 +39,7 @@ public:
 
         return root; // NOTE: important case
     }
+
     TreeNode* sortedListToBST(ListNode* head) {
 
         return callToCompute(head,NULL,NULL);

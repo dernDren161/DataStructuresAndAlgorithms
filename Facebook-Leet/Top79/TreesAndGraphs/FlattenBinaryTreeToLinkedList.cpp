@@ -16,7 +16,7 @@ class Solution {
 public:
     void flatten(TreeNode* root) {
 
-        // Here we use the preorder traversal
+        // Here we use the inorder traversal
 
         if(root == NULL) return;
 

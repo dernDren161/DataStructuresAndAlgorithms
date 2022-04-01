@@ -50,7 +50,7 @@ vector<int> merge(Node *root1, Node *root2)
    int k = 0;
 
    // This is basically merging two sorted arrays using the two pointer theorem.
-   
+
    while(a < x && b < y){
        if(inOrder1[a] <= inOrder2[b]){
            theAnswer[k] = inOrder1[a];
