@@ -1,3 +1,11 @@
+1) PaintHouse - https://www.lintcode.com/problem/515/
+2) https://www.careercup.com/question?id=5648527329853440
+3) https://walkccc.me/LeetCode/problems/2158/
+4) https://walkccc.me/LeetCode/problems/2184/
+
+
+-----------------------------------------------------------------------------------------------
+
 Text Justification
 33.6%
 Hard
