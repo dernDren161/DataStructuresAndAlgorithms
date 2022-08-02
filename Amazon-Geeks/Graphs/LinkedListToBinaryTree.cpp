@@ -2,43 +2,26 @@
 
 // This code does not work but the concept is correct, just learn the concepts.
 
+void call(TreeNode*& root, vector<int>&vs, int i){
+
+    if(i>=vs.size()){
+        root = NULL;
+        return;
+    }
+
+    root = new TreeNode(vs[i]);
+
+    call(root->left,vs,2*i+1);
+    call(root->right,vs,2*i+2);
+}
+
 void convert(Node *head, TreeNode *&root) {
 
-   if(head == NULL){
-       root = NULL;
-       return;
-   }
+    vector<int>vs;
+    while(head){
+        vs.push_back(head->data);
+        head = head -> next;
+    }
 
-   queue<Node*> qs;
-   qs.push(head);
-   head = head -> next;
-
-   while(head){
-
-      Node* t = qs.front();
-
-      TreeNode* temp;
-
-      temp -> data = t -> data;
-
-      qs.pop();
-
-      Node* l = head;
-
-      qs.push(l);
-
-      Node* r;
-
-      head = head -> next;
-
-      if(head){
-          r = head;
-          qs.push(r);
-          head = head -> next;
-      }
-
-      temp -> left -> data= l -> data;
-      temp -> right -> data= r -> data;
-   }
-
+    call(root,vs,0);
 }

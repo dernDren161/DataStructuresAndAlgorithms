@@ -1,38 +1,71 @@
-class Solution {
-private:
-    const int inf = 1e6+5;
-    int dx[4] = {-1, 0, 0, 1};
-    int dy[4] = {0, -1, 1, 0};
+#include<bits/stdc++.h>
+#include<map>
+using namespace std;
 
-    bool isValid(int index, int lim) {
-        return (index >= 0 && index < lim);
-    }
 
-public:
-    int minimumEffortPath(vector<vector<int>>& heights) {
-        int m = heights.size(), n = heights[0].size();
-        priority_queue<pair<int, pair<int, int>>> pq;
-        vector<vector<int>> eff(m, vector<int>(n, inf));
-        eff[0][0] = 0;
-        pq.push({eff[0][0], {0, 0}});
-        while(!pq.empty()){
-            int effort = (-1) * pq.top().first;
-            int x = pq.top().second.first;
-            int y = pq.top().second.second;
-            pq.pop();
-            if(x == m-1 && y == n-1) return effort;
-            for(int k=0; k<4; k++){
-                int i = x+dx[k];
-                int j = y+dy[k];
-                if(isValid(i, m) && isValid(j, n)){
-                    int maxAbs = max(effort, abs(heights[i][j] - heights[x][y]));
-                    if(maxAbs < eff[i][j]){
-                        eff[i][j] = maxAbs;
-                        pq.push({(-1) * eff[i][j], {i, j}});
-                    }
-                }
-            }
+// Function to return the count of subarrays
+// with at most K distinct elements using
+// the sliding window technique
+int atMostK(int arr[], int n, int k)
+{
+
+    // To store the result
+    int count = 0;
+
+    // Left boundary of window
+    int left = 0;
+
+    // Right boundary of window
+    int right = 0;
+
+    // Map to keep track of number of distinct
+    // elements in the current window
+    unordered_map<int,int> map;
+    // Loop to calculate the count
+    while (right < n) {
+
+        // Calculating the frequency of each
+        // element in the current window
+        if (map.find(arr[right])==map.end())
+            map[arr[right]]=0;
+        map[arr[right]]++;
+
+        // Shrinking the window from left if the
+        // count of distinct elements exceeds K
+        while (map.size() > k) {
+            map[arr[left]]= map[arr[left]] - 1;
+            if (map[arr[left]] == 0)
+                map.erase(arr[left]);
+            left++;
         }
-        return -1;
+
+        // Adding the count of subarrays with at most
+        // K distinct elements in the current window
+        count += right - left + 1;
+        right++;
     }
-};
+    return count;
+}
+
+// Function to return the count of subarrays
+// with exactly K distinct elements
+int exactlyK(int arr[], int n, int k)
+{
+
+    // Count of subarrays with exactly k distinct
+    // elements is equal to the difference of the
+    // count of subarrays with at most K distinct
+    // elements and the count of subararys with
+    // at most (K - 1) distinct elements
+    return (atMostK(arr, n, k) - atMostK(arr, n, k - 1));
+}
+
+// Driver code
+int main()
+{
+    int arr[] = { 2, 1, 2, 1, 6 };
+    int n = sizeof(arr)/sizeof(arr[0]);
+    int k = 2;
+
+    cout<<(exactlyK(arr, n, k));
+}

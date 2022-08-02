@@ -1,5 +1,7 @@
 // Problem Link: https://leetcode.com/problems/invert-binary-tree/
 
+// NOTE: Invert a binary tree is same as creating the mirror tree
+
 class Solution {
 public:
     TreeNode* invertTree(TreeNode* root) {

@@ -17,7 +17,7 @@ public:
         dp[0] = 0;
         dp[1] = nums[0];
 
-        for(int i=2;i<n;i++){
+        for(int i=2;i<n;i++){ // the for loop is w.r.t the dp
             dp[i] = max(nums[i-1]+dp[i-2],dp[i-1]);
         }
 

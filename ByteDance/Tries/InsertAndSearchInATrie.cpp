@@ -3,7 +3,7 @@
        For searching, O(M)
   S.C: For insertion(of all) O(N*M)
      : For searching, O(1)
-  */
+*/
 
 #include<bits/stdc++.h>
 using namespace std;

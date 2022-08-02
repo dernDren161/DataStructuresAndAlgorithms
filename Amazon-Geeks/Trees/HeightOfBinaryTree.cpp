@@ -5,9 +5,7 @@
 
 int call(Node* root, int count){
     if(root == NULL){
-        int temp = count;
-        count = 0;
-        return temp;
+        return count;
     }
     int left = call(root -> left, count+1);
     int right = call(root -> right, count+1);
