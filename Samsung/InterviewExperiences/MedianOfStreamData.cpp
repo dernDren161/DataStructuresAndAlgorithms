@@ -13,7 +13,7 @@ public:
 
     void addNum(int num) {
 		c++;
-    	maxi.push(num);
+    maxi.push(num);
 		mini.push(maxi.top());
 		maxi.pop();
 

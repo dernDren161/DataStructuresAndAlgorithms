@@ -18,7 +18,7 @@ Node* kthAncestorDFS(Node *root, int node , int &k)
         else if (k == 0)
         {
             cout<<"Kth ancestor is: "<<root->data;
-            return NULL;
+            return NULL; // NOTE: similar to that of returning false, i.e the end.
         }
 
         return root;

@@ -13,7 +13,7 @@ int findRotationCount(int arr[], int n)
 	{
 		// if the search space is already sorted, we have
 		// found the minimum element (at index low)
-		if (arr[low] <= arr[high])
+		if (arr[low] <= arr[high])        // NOTE: This Base case @Abhishek Ahirwar
 			return low;
 
 		int mid = (low + high) / 2;

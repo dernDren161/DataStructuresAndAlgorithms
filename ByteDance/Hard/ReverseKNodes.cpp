@@ -1,41 +1,55 @@
 // Problem Link:https://leetcode.com/problems/reverse-nodes-in-k-group/
 
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
+class Solution {
 public:
-ListNode* reverseKGroup(ListNode* head, int k) {
 
-    ListNode* curr = head;
-    ListNode* next = NULL;
-    ListNode* prev = NULL;
+    ListNode* callKGroups(ListNode* head, int k, int c){
 
-    int count = 0;
+        if(k>c) return head;
 
-    ListNode* temp = head;
-    int cnt = 0;
+        ListNode* curr = head;
+        ListNode* prev = NULL;
+        ListNode* ne = NULL;
 
-    // Checking if number of nodes is a multiple of k or not
-    while(temp != NULL){
-        temp = temp->next;
-        cnt++;
+        int temp = 0;
+
+        while(curr!=NULL && temp<k){
+            ne = curr->next;
+            curr->next = prev;
+            prev = curr;
+            curr = ne;
+            temp++;
+        }
+
+        if(ne!=NULL){
+            head->next = callKGroups(ne,k,c-k);
+        }
+
+        return prev;
     }
 
-    // if not multiple of k then don't reverse the remaining nodes
-    if(cnt < k){
-        return head;
-    }
+    ListNode* reverseKGroup(ListNode* head, int k) {
 
-    //Reverse first k nodes
-    while(curr != NULL && count < k){
-        next = curr->next;
-        curr->next = prev;
-        prev = curr;
-        curr = next;
-        count++;
-    }
+        if(head==NULL) return NULL;
 
-    if(next != NULL){
-        head->next = reverseKGroup(next, k);
-    }
+        int c = 0;
+        ListNode* temp = head;
 
-    return prev;
-}
+        while(temp){
+            c++;
+            temp = temp->next;
+        }
+
+        return callKGroups(head,k,c);
+    }
 };

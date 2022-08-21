@@ -2,51 +2,45 @@
 
 class Solution {
 public:
-    // R,D,L,U
-    int rowM[4]={0,1,0,-1};
-    int colM[4]={1,0,-1,0};
 
-    bool isSafe(int i, int j, int r, int c){
-        return i>=0 && j>=0 && i<r && j<c;
+    bool isSafe(int newRow, int newCol, int r, int c){
+        return newRow>=0 && newCol>=0 && newRow<r && newCol<c;
     }
 
     int shortestPath(vector<vector<int>>& grid, int k) {
 
-        int r = grid.size(); int c = grid[0].size();
+        int r = grid.size();
+        int c = grid[0].size();
         vector<vector<int>>vis(r,vector<int>(c,-1));
 
-        // r,c,dist,k(remaining quotas)
         queue<vector<int>>qs;
         qs.push({0,0,0,k});
 
+        // R,D,L,U
+        int rowM[4] = {0,1,0,-1};
+        int colM[4] = {1,0,-1,0};
 
         while(!qs.empty()){
-            auto x = qs.front();
-            int a = x[0];
-            int b = x[1];
-            int dist = x[2];
-            int quotas = x[3];
-
+            vector<int> f = qs.front();
             qs.pop();
+            int x = f[0];
+            int y = f[1];
+            int dist = f[2];
+            int quota = f[3];
 
-            if(a==r-1 && b==c-1) return dist;
+            if(x==r-1 && y==c-1) return dist;
+
+            if(grid[x][y]==1) quota--;
 
             for(int i=0;i<4;i++){
-               if(isSafe(a+rowM[i],b+colM[i],r,c)){
-                   if(grid[a+rowM[i]][b+colM[i]]==1 && quotas>0){
-                       quotas--;
-                   }else if(grid[a+rowM[i]][b+colM[i]]==1 && quotas<=0)continue;
+                int newRow = x + rowM[i];
+                int newCol = y + colM[i];
 
-                   if(vis[a+rowM[i]][b+colM[i]]!=-1 && vis[a+rowM[i]][b+colM[i]]>=quotas){
-                       continue;
-                   }
-
-                   vis[a+rowM[i]][b+colM[i]] = quotas;
-
-                   qs.push({a+rowM[i],b+colM[i],dist+1,quotas});
-               }
+                if(isSafe(newRow,newCol,r,c) && vis[newRow][newCol]<quota){
+                    vis[newRow][newCol] = quota;
+                    qs.push({newRow,newCol,dist+1,quota});
+                }
             }
-
         }
 
         return -1;
