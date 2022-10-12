@@ -1,0 +1,335 @@
+When I was 11 years old I was first introduced to computers at my school and in my 10 th grade I came to
+know that we can apply the mathematic calculations and logics to most of our day to day works to make
+it simpler and easier. Eventually my interest towards computers has increased and also motivated day
+by day, by the way has technology developing and advancing in the field of computers. This motivated
+me to take computer science soon after my 10 th grade. To make my fundamentals strong enough in the
+programming languages I have joined Diploma in Computers Science Engineering which is of 3 and ½
+years after my 10 th grade, and then later I have done my under graduation in computer science
+engineering for 3 years which provided me a firm base to put my knowledge into more technical
+research.
+Work Experience:
+After my under graduation I joined as Software Engineer in a multinational company called XXXX in
+Bangalore on Nov 2011, which I got selected through campus placement in under graduate college. I
+have trained in various technologies like Object Oriented Programming, .Net (DotNet), C# (C Sharp),
+Asp.Net, Ado.Net, XML, Web services and database systems like SQL server 2008 for 4 months and stood
+top 3 rd in final test on all the above technologies in my batch of 100 trainees. During training I have
+developed 2 websites as mini projects based on Asp.Net and SQL server 2008. Later I was allocated to
+Microsoft Center of Excellence where my role involved in development of projects on DotNet and Sql
+server 2008 technologies and also involved in Performance tuning of applications. While developing the
+.Net (DotNet) applications, with my curiosity and keen interest I have learned SharePoint technology
+and later started developing the applications in SharePoint as well. Based on my performance I was
+promoted as Senior Software Engineer soon after completing 1 year of my experience with the
+organization. I have exposed to work only to gain the real time practical knowledge and experience to
+know how and to what extent the technologies are developed and utilized by utilizing my skills and
+abilities, so that it would be useful for my further masters and PhD research to improve myself.
+Under Graduation:
+Coming to my under graduation a well-structured and comprehensive course curriculum at Chaitanya
+Bharathi Institute of Technology (OSMANIA University) Hyderabad has given me a broad perspective of
+the various fields in Computer Science, placing me on the right footing to select my areas of
+specialization. Courses like Principles of programming languages, Data Structures, Discrete Structures,
+Object oriented programming using Java, Computer Architecture, Operating Systems, Software
+Engineering, Design &amp; Analysis of Algorithms, Data communications, Database Systems, Advanced
+Database Systems, Artificial intelligence, Computer Networks, Web Programming &amp; services,  Compiler
+Construction, Automata Languages and computation,  Object oriented systems, Embedded Systems,
+Distributed Systems, Information Security, and Data Mining that form the core of Computer Science
+and besides theoretical work, I gained practical knowledge by spending more time in computer
+Laboratories in college which have provided me with a firm base in the programming languages.
+Under Graduation Project:
+I was fascinated by the capabilities and applicability of Artificial intelligence and neural networks made
+me to do the project based on these fields. I have elected to do a research project in under graduation
+that would simplify the recent year’s escalating use of physical documents to store the data. So I did
+project titled “Multi-Lingual Optical Character Recognition Using Neural Networks” on Optical
+Character Recognition that facilities easy creation of electronic documents from a physical documents
+
+Page 2 of 3
+for a better communication and storage. My curiosity and keen interest made me to learn .Net (DotNet)
+technology for this project. The goal of my project was to create an application interface for a multi-
+lingual optical character recognition that would use an artificial neural network as the backend to solve
+the classification problem. Though intense research has done on OCR and a large number of articles
+have been published, those are limited OCR systems which will work for Latin, Roman, English, and
+Japanese characters. Very little research work has done on OCR’s for Indian scripts. In a multilingual
+country like India it is common to have documents with multiple scripts. Finally my project was ended
+up with successful for the recognition of all the English characters and all the base characters of Telugu.
+Teaching Experience:
+A part from gaining knowledge it is equally important to have good communication and presentations
+skills to have successful career. I believe that we can learn more both conceptually and practically
+through teaching others. I started teaching when I am doing my diploma 3 rd year; initially I was a
+teaching assistant for high school mathematics then later after completing my 2 nd year in under
+graduation I was teaching assistant for courses programming in C, C++, Data Structures, Database
+systems and Core Java. My duties involved conducting labs and tutorial sessions simultaneously so that
+student can remember easily, re-formulating the assignments so that the students can learn more, both
+conceptually and practically, helping the students with their doubts and evaluating and grading them.
+These assistantships helped me improve my communication and presentation skills as well as sound
+knowledge of the fundamental concepts.
+Achievements:
+ Secured 47 th rank in ECET (Engineering Common Entrance Test) state level exam.
+ Awarded “Third Prize” in “Coding &amp; Debugging” in a national level technical Symposium in
+Dr.B.V.Raju Institute of Technology.
+ Won the SILVER medal for the Badminton runner up conducted by Avance IT Park at IGATE
+Global Solutions Private Limited.
+ Won the second and third year cricket cups in under graduation.
+Co-Curricular Activities:
+I am a Volunteer of ICARE team activities at IGATE Global Solutions Private Limited in which we collect
+fund for the sake of poor students and buy books and distribute them among government aided school
+and also organized many events like “Coding &amp; Debugging”, LAN Gaming, Super Sixes (Cricket event)
+conducting group discussions and Mock Interview (at college level for preparing the students for campus
+recruitment) during my under graduation at college level and state level events.
+Why This University:
+A Masters in Computer Science from an American university that pairs students with highly qualified
+teachers, engaged in cutting-edge research would be the next logical step in my career. I am eager to
+join graduate program and work under the guidance of the distinguished faculty members of the
+XXXXXXXXXX University. My web research to identify a reputed university where I can get associated
+with research work in the areas of my interest has led me to XXXXXXXXXXXXX University. I am
+convinced that the facilities in the department of computer science in your university will be very useful
+for dedicated involvement in research projects. I believe that a graduate program, in Computer Science
+in XXXXXXXXXXXXXX University, will help me reach my goals.
+
+Page 3 of 3
+In conclusion, I would like to take this opportunity to thank you for enabling me to express myself. I
+would be very thankful if I am offered an admission with scholarship and assistantship in your esteemed
+university.
+
+----------------------------------------
+
+“A person doesn’t gain knowledge by possessing an insatiable thirst for it,
+But by searching for the means to quench it”
+- Jerdon Malloch
+That day still runs in my mind when I first saw the autonomous robot in the science
+planetarium during my high school period , It was the time when technology had begun to make an
+impact on the lives of people in India. I was really excited and fascinated about the robot as it was
+following the dark line on a sheet on its own with out human control, so called “Line follower”. Apart
+from that experience the communication field really attracted me with its path breaking technology like
+‘Blue tooth’. So I decided to master these concepts and entered in to the field which includes both my
+passions. As practical work is required for expertise in any concept, I took Electronics and
+Communication Engineering for pursuing my under graduation.
+Continued with the passion about the Electronics I started learning about many subjects
+those which are required for my goal. During the course of my undergraduate study I was exposed to
+various courses like Electronic devices and Circuits, Electronics circuit Analysis, Micro Processors,
+Linear &amp; Digital IC applications, Pulse Digital Circuits, Switching Theory and Logic Design. Apart
+from Electronics I learned the communication subjects like Analog communications,
+Telecommunication systems &amp; switching networks, Digital communications, Antenna Wave
+Propagations and Radar systems, Cellular and Mobile Communication systems. The
+communication concepts made me to correlate with the communications of daily life like regular
+antennas, telephone and mobile networking. These concepts build me with strong Basics in my subjects.
+.
+Continuing with my interest in Electronics and Communication I also liked to learn the
+Computer science. During my first year I had a subject called C Programming and Data Structures which
+was ambiguous to me, but when I gone through the subject later I understood it well and learned by
+myself easily as it was like playing a logical game. From there I practiced writing codes using C all by
+myself. This interest in me later moved me to learn other programming languages like C++&amp; Java. With
+this interest I also learned other coding languages like ECAD, Mat-lab during my final project “An efficient
+Resource Allocation for Future Wireless Communication” which helped me in understanding the results
+obtained with the mixture of software and hardware.
+I am also a very good sportsman. I have captained our college cricket team to the finals
+and semi-finals of various cricket tournaments on various occasions. I have been a very good ‘kabaddi’
+and ‘kho-kho’ player since my schooling. I have also been involved in social service and community work.
+I wish to earn an MS degree in Computer Science. I have spoken to my professors,
+seniors and colleagues about my choice of University, and have applied to your University because it is
+reputed for its research facilities. The department web site revealed a very strong faculty involved in
+extensive research in the area of computers. This has strengthened my resolve to study at your
+esteemed University.
+Excellence in any subject can be achieved with continuous dedication and zeal to
+achieve your goal. My deep desire to continue my studies at your graduate school stems from that it is
+one of the top colleges and having fine record of academic excellence and is backed up by expert faculty
+and research facilities. In this concept I would like to pursue the course of study in your esteemed
+university. If I can get an opportunity to be a part of that wonderful environment, I am sure that my talents
+will become a part of this world of knowledge.
+
+(________)
+
+---------------------------------------
+
+‘Success is a journey, not the destination’. This is one of my favourite precepts and at
+this point in my life when I have just completed my under graduation and my future unfolds in
+front of me like a maze, a dream; this maxim has never influenced my life more than this
+before.
+As I stand at the vestibule of completing my undergraduate study, after carefully weighing
+the various career options open to me, I have decided to pursue Master’s study in Computer
+Science. Choosing Electrical &amp; Electronics as my undergraduate major was driven by my
+passion for mathematics and physics, my fascination for revolving magnetic fields which is
+mainly applicable to electrical objects like electrical motors, transformers, heavy machinery
+used in industries. During my undergraduate study, I had exposure to various fields of
+electrical and computer subjects such as mathematics, network theory, electrical machines,
+analog and digital circuits, C programming and data structures, computer system
+organization, Database Management system, microprocessors (8086) &amp; micro Controllers.
+Computer fundamentals like mathematics, C programming language, data structures and
+operating systems principles captivated my interest. I showed great interest in concepts of
+Data Base management systems and Data structures. Considering my passion towards
+Database I was asked to be a part of database management system implementation to meet
+the administrative needs of the electrical engineering departmentof our college for electrical
+lab equipment management. The electrical lab equipment database management system
+was designed to control the department inventories, which consist of equipment, parts, and
+spares. This helped our department to have reports prepared instantly for academic and
+audit purposes. It really amazed me that how a small and user understandable SQL query
+format can solve and reduce human involvement and effort to collect , store and report the
+electrical lab equipment data, which would help the people to concentrate more on their core
+environment ,and reduces their time and effort to invest on collecting these kind of data.
+Without my knowing, I have gravitated toward database systems and started exploring on it.
+Meanwhile, to lift up my knowledge in Database Management Systems I used to work in my
+college laboratories on database designing and its implementation. This lab experience
+really helped me a lot in better understanding many concepts of database and driven my
+interest to undertake my academic project to have database implementation involved. My
+project was“Automation Substation Monitoring And Controlling” which has an
+microcontroller(AT89S52) with embedded C program to monitor various units of power
+system and aneasy database design to store electrical distribution system equipment
+
+nameplate data and the power system study results like display and print short circuit
+results, arc flash study results, protective device settingstime current curve device number
+and curve discussions, equipment nameplate data for motors, transformers, generators,
+transfer switches, panel board, switchboards, motor control centres, switchgears, circuit
+breakers and other electrical equipment which enables the user to obtain study results and
+equipment information without searching multiple files and report binders. As my journey on
+database systems continues, I have come across how databases were implemented on
+various kind of business and how they have been fulfilling the business needs, and how they
+have been solving the biggest challenges (Data) of today’s business. As the data becoming
+more and more pivotal to the business, a lot of new challenges are emerging to manage
+the data in a efficient manner. To fulfil the gap between my skills and current challenges in
+the area of Database I would like to add that the essence of good University education which
+enhances not only my skills butalso privilegesme to fulfil my career goals.
+.At XXX University, I am confident that, I can transgress the concepts of DBMS and explore
+the various aspects that are tangled with DBMS. As a centre of excellence that consists of
+renowned faculty members, excellent lab infrastructure, challenging curricula, innovative
+courses and a technical emphasis helps students to learn and apply practices, tools and
+techniques in a real world project environment. After successful completion of my
+Graduation Program, I intend to work and continue my research in DBMS where I can put
+my improved knowledge to effective use. I am sure I will achieve my career goals at your
+university, and I wish to assure you that, as a committed student I will put forth my skills,
+innovation, and zeal in achieving the same. I trust that, by utilizing my theoretical
+background and project experience I can extract maximum gain from this Graduation
+program and give the best returns to the society.
+
+-------------------------------------
+
+I am very thankful for providing me this opportunity and it is with sincere sense of gratification
+that I pen my brief statement of purpose. Working for betterment and improvement has been my
+motto in all aspects of life, and the same applies even to my professional and academic career.
+Starting off with my academic’s, I completed schooling (SSC) in VSK Memorial High School,
+Kukatpally, India. My school helped me develop better in the field of science, right from the
+initial stages, with different techno fests, science expos and I have secured 80.33% marks in 10 th
+standard. Then I said to myself that I am a far better performing student than these marks
+suggest. Hence to prove my capability I worked hard with sincerity and devotion and obtained
+valuable marks of 86.8% in my Board of Intermediate at Sri Vyshnavi Junior College,
+Kukatpally, India.
+My bachelors program in Computer Science and Engineering discipline at MLR Institute of
+Technology, one of the premier engineering colleges affiliated to the Jawaharlal Nehru
+Technological University (H) Hyderabad has given me a substantial knowledge of the basic
+areas of computer science. I have striven to develop a clear understanding of the basic concepts
+and acquire an insight into the Computer Science.
+Computer Science and engineering has always fascinated me as the field of engineering having
+the most practical applications. My undergraduate studies have given me the chance to study in a
+stimulating academic environment, where I have had a comprehensive exposure to all core fields
+of Computer Science and Engineering like Computer Networks, Data Structures, Computer
+Architecture, Operating Systems, Design and Analysis of Algorithms, Artificial
+Intelligence, Human Computer Interaction, …….etc.
+With the knowledge of all these core fields I have done two projects in Btech. Mini project is
+“Online Library Management System” which is done under the platform of java, I leaded the
+team with a group of 3 members. The main aim of our project is to create a new digital paper less
+library system where we can access the information easily and fastly about the books/journals we
+desire for, while the traditional method of compiling information requires huge resources and
+also time consuming. The system can run on all popular platforms environment (UNIX,
+Windows etc.) and have a modern graphical user interface.
+My main project is “Launch Computer Simulation”, which is done in DRDO RCI(Research
+Center Imarat) under the platform of vc++,here I played a role of designing . This software
+controls and performs the Avionics System check out activities while the components are being
+prepared for launch.. The main object of our project is to simulate the launch computer system,
+which involves establishing communication between LC and OBC, which is done by using RS-
+422 interface which satisfies all the requirements for the communication. This project was
+selected as the best project in our computer science department.
+My fascination of engineering is of long-standing .An engineering course, though comprehensive
+in its curriculum, provides limited scope for specialization. The scope was limited to the
+theoretical course. At this juncture, I have come to realize that the knowledge gained so far is
+inadequate, thus I am interested in pursuing my graduate program (M.S), which will help me to
+make a firm foundation for my future.
+
+I intend to pursue M.S degree at your renowned University which I believe will give a
+direction to my goal of a successful and challenging career as a software professional and I am
+confident that given an opportunity, I will match the high standards set by your prestigious
+University . I have chosen this university because of its one of the best computer science
+department , Masters degree at your university would not only provide me subject matter
+expertise but also thorough research oriented study would help me lay foundation for fulfillment
+of my dream..
+In conclusion, I would like to say that if granted admission into your university I would perform
+to the best of my abilities and hope to acquire skills that will help me realize my dreams. Finally
+I take this opportunity to thank you for enabling me to express myself
+Thank you for your time and consideration.
+
+--------------------------------------
+
+Introducing myself as _____________, a final year student of Bachelor of
+Technology in Computer Science and Engineering, I wish to study further to
+refine my knowledge and skills in my areas of interest . Among the many paths
+forked out in different directions, the one towards which my thoughts are
+unwaveringly oriented is the path towards Graduate studies, with Computer
+Science as Major in an esteemed University which fulfills my ever-cherished
+dream of pursuing a research career and attain more knowledge.
+My aim in pursuing a course of graduate study is to make some
+fundamental contribution to human knowledge. It would be wonderful if my
+research could help people by making a positive impact in the real world. I know
+it won&#39;t be easy; but I am prepared to stretch my limits. My first preference has
+always been INFORMATION TECHNOLOGY, COMPUTER NETWORKS
+and DATABASE MANAGEMENT SYSTEM. My ardent desire towards
+COMPUTER NETWORKS drove me to choose a paper on NETWORK
+SECURITY as my Term Paper in this semester.
+As a child, I was always intrigued by the solutions to the complex
+problems and their practical implementations. I used to spend a lot of time trying
+to explore and figure out their principles. In my childhood I found myself drawn
+towards subjects that required in-depth analysis and logical thinking. I was awed
+by their simple fundamentals which form the governing basis for a lot of practical
+applications. In order to understand these concepts I took part in numerous
+science fairs and practical workshops. This exposure taught me the importance of
+simple and practical design. To understand the principles and practical aspects of
+designing a product, I decided to pursue my career in Engineering.
+This predilection drove me to opt for Mathematics as my major in senior
+secondary. It was during this time that I got exposed to the exciting world of
+Computers and their computing capabilities. With this quest for knowledge, when
+I had the choice of selecting my major for the Bachelor of Technology, being
+ranked in top 3% of nearly 2,75,000 students in the competitive EAMCET
+(EAMCET forms the baseline for admissions to undergraduate colleges ) exam, I
+opted for Computer Science and Engineering at DVR college of engineering,
+affiliated to JAWAHARLAL NEHRU TECHNOLOGICAL UNIVERSITY.
+
+Academic Background &amp; Research Interests
+In my undergraduate studies, I have benefited from the breadth of
+Jawaharlal Nehru Technological University’s syllabi content that has given me a
+comprehensive exposure to the core areas of Computer Science and a strong
+conceptual understanding of the same. In these three and half years of study, I
+have strived to maintain an approach of expending independent effort in all my
+endeavors. Learning by myself and sharing my knowledge with others has
+been most worthwhile, when comprehending a concept.
+Over the past two years, I have developed an interest in the areas of
+Computer Networks and Information Security. The Information Security lab
+sessions last semester required the design of security algorithms using
+programming languages like C, C++ and Java. The work involved in this, as
+well as the courses, Design &amp; Analysis of Algorithms and Principles of
+Communication, has lead me to appreciate the intricacies involved in this
+field. However, for my MS degree, I remain open to other topics as well.
+For my B.Tech project, I have decided to concentrate on my other area
+of interest viz. Information Retrieval. I’m attempting to evolve a technique that,
+when employed in a search engine, will maximize the comprehensiveness and
+precision of the query listings. The work, “Anatomy of large-scale hyper-textual
+search engine” by Lawrence Page and Sergey Brin, has introduced me to a vast
+body of pertinent research. This has served to sharpen my inclination to
+engage in active research within this area.
+One person’s life influences the lives of an unbelievable number of
+people, one of the most important lessons I learned, being the President of
+Computer Science Association, a student body of Computer Science
+Department, during my B.Tech. Hence the need of responsible actions. It
+taught me that the basis for good work is self-reliance and very
+importantly, time management. Not all of my entire one year was devoid of
+shortcomings. I learned to accept both criticism and praise with a positive
+frame of mind. My work involved organizing various events, like Techno-
+Fest, a National-level event, held annually in our college, brought with
+them the opportunity to work and interact with various kinds of people. This was
+
+a distinctively gratifying experience for me, which I feel would stand in
+good stead in the future, especially in lieu of any teaching experience.
+In conclusion, I would like to add that the essence of University education
+lies in the synergetic relationship between the student and his department. I
+feel that graduate study at your University will be the most logical
+extension of my academic pursuits and a major step towards achieving my
+objectives. I would be grateful to you if I’m accorded the opportunity to
+pursue my graduate studies with financial assistance at your institution and
+am able to justify your faith in me.
+
+
+----------------------------

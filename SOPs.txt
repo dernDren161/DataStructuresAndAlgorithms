@@ -1,0 +1,474 @@
+&quot;Take up one idea. Make that one idea your life -- think of it, dream of it, live on that idea. Let the
+brain, muscles, nerves, every part of your body be full of that idea, and just leave every other idea
+alone. This is the way to success.&quot; -- Swami Vivekananda
+Since childhood, I always had this saying on my mind and I followed it religiously. I did my
+schooling in Bharatiya Vidya Bhavans Public School at BHEL, Hyderabad in India. Apart from the
+regular course curriculum, there were many co-curricular and extra-curricular activities conducted by
+my school back then, some of them being international and national level Olympiads like
+International Mathematical Olympiad (IMO), National Science Olympiad (NSO), Green Olympiad
+organised by TERI. I am gratified to say that I have developed personal and professional skills from
+then. Taking part in such kind of activities provided me with a lot of important experiences outside
+the traditional classroom. They helped me to develop time management, organizational skills and
+group interaction outside of the tight circle of the regular classroom and taught me the importance of
+following through on commitments. I also got an opportunity to take part in several extra-curricular
+activities like athletics, art, dance competitions, debate and JAM. During these activities, I assimilated
+how to mingle with different peer groups which satisfied the needs of socialization, self-assessment
+and self-identification. Apart from these, we were introduced to a subject called computers. I have
+always been fascinated by how the computer works in such an efficient manner from then. I used to
+wonder how such tedious calculations were being performed by a computer in quick time.
+Simultaneously I developed a keen interest in Mathematics and Science and achieved cumulative
+grade point average of 9.2 in my 10 th grade Central Board Public Examination.
+The longing interest in Mathematics during my middle schooling encouraged me to take Mathematics,
+Physics, Chemistry in high school (Intermediate). In the initial days, I found it quite tough to catch up
+with the syllabus since I transitioned from a Central Board to a State Board, but I never gave up. I am
+proud to say that my perseverance and hard work helped me to secure 962 marks out of 1000 in the
+State Board Intermediate Public Examination.
+At present I am in my final year of my 4-year undergraduate studies and recently gave my
+examinations for the 1 st semester of the final year. My cumulative grade point average until the end of
+3 rd year is 8.14.
+The fascination for computers which started during my schooling developed into a passion which led
+me to choose Computer Science as the major discipline in my under graduate course at VNR Vignana
+Jyothi Institute of Engineering and Technology (An Autonomous Institute), Hyderabad, India, a
+reputed institution for Science and Technology and a top college in the state of Telangana. I took a
+wide gamut of courses concentrating on Computer Programming languages like C, C++, JAVA and
+subjects like Data Base Management Systems, Operating Systems, Computer Networks, Data Mining,
+Big Data Analytics, Artificial Intelligence &amp; Neural Networks, Introduction to Internet of Things etc
+and aptly complemented by laboratory courses. These subjects helped me gain a strong background in
+the fundamentals of Computer Science. The challenging assignments that were part of the laboratory
+courses helped me to develop the required technical and programming skills. My ardour for Web
+Technologies made me do a project on a train ticket reservation system during my second year of
+under graduate course under the guidance of my faculty. This project helped me to uncover the
+practical applications of all that I have learnt until then and also helped me develop my team-building
+and communication skills.
+Later, along with three of my classmates I was involved in a project “VITA- Blood Donor Central
+Database” under the supervision of my mentor Dr. Ramesh Chandra Gollapudi. Blood Donor Central
+Database is a web-based application which maintains a centralized database to store information
+related to blood donors and blood providing organizations. Dr. Ramesh Chandra Gollapudi took keen
+interest on our project work and guided us all along till the completion of our project work by
+providing all the necessary information for developing a good application.
+
+Although a focused academic, I balanced my scholastic efforts with extra-curricular activities which I
+believe ensured an all-round development of my personality. In my 2 nd year, I conducted a workshop
+named “Mobile Application Development” during our college technical fest CONVERGENCE-2017,
+a national level technical symposium which helped me hone my organizational skills. I am proud to
+inform that the workshop attracted the maximum number of registrations in the fest. I completed an
+online course on “Data Science for Engineers” from NPTEL, an online e-learning platform and an
+offline course “Data Analytics using Python” by Alltronics Technologies Pvt Ltd, Hyderabad. I also
+hold a certificate of BEC (Business English Vantage) offered by University of Cambridge with a
+grade A, which enhanced my interpersonal and Business English skills. Apart from these, I also
+participated as a delegate in Youth Speak Forum 2017 powered by AIESEC, Hyderabad held in the
+month of October 2017 at BITS PILANI, Hyderabad. Youth Speak is one of the Global Initiatives of
+AIESEC that gathers like-minded students and empowers them with leadership and entrepreneurship
+while making them more self-aware and solution oriented. 
+I am a person who believes that the exams one has passed, notes one has scribbled on hundreds of
+pages and the valuable lectures to which one has lent ears to are never enough until and unless they are
+all practically seen and visualized. So, during my 3 rd year of under graduation, I attended an industrial
+visit to “INFOSYS”, an Indian multinational corporation. The interaction with the employees there
+helped me learn the industrial functions and business concepts from their perspective and I was
+exposed to the challenges an organization faces in order to survive in the corporate world.
+Having acquired a solid foundation in the field of computer science through a rigorous undergraduate
+program, at this point in time I feel that it is the right time for me to take up graduate studies. After a
+detailed study of your university website, I have collated information about the courses and facilities
+that are offered and have decided to apply to your university for an MS graduate program in Computer
+Science. I believe that the MS program offered by your university will undoubtedly provide me with
+the right knowledge, skills and experience to pursue my dreams and exploit future opportunities to the
+fullest. Given an opportunity, I assure you that by my hard work I would prove to be a rightful
+candidate for research work in the university since I have always been inclined towards practical tasks
+with an everlasting quest to learn more all the time. I believe that my serious intention for higher
+studies, my projects, my certifications and strong academic background in various areas of Computer
+Science will be beneficial for my graduate studies and research. Attending your prestigious institution
+would give me an opportunity to receive high-level education under the guidance of your esteemed
+and prominent professors.
+I would regard my admission to your university not only as a great honour but also as a great
+responsibility and challenge to prove myself. This would go a long way in my dream of pursuing a
+great career to reach my ultimate goal of creating efficient technologies with ease of access to human
+life. Hoping to be part of your esteemed institution and finding a place in the university roll of honour.
+I thank the university and the department in particular for giving me an opportunity to express myself.
+
+
+
+-----------------------------------------------------------
+
+For most children, their fondest memories are of their favorite toy, game, or best friend. In my
+case, the most vivid memory was when I got my hands on a computer. Excited by the immense
+potential these super machines have and their use in everyday life, I spent hours trying to discern
+the intricacies of complex systems in the machine. I was soon capable enough to help my friends
+and family solve their challenges with technology and automation around them. This interest in
+computers, paired with my inclination towards mathematics and problem-solving, made a
+Bachelor's in Computer Science the ideal option for me. Eager to gain a comprehensive
+understanding of the domain that is the driving force behind the construction of algorithms and the
+development of the world, I now seek a Master's in Data Science from your esteemed institution.
+The undergraduate curriculum was replete with a host of courses that aimed to teach me the basics
+of Computer Science like data structure, object-oriented programming, algorithms, and
+networking. This wide range of subjects has sharpened my critical and analytical thinking as well
+as problem-solving skills. During my junior and senior years, I completed a minor specialization
+in 'Intelligent Systems,' which comprised machine learning, artificial intelligence, natural language
+processing, and social network analysis courses. All these subjects provided me with a broader
+perspective of the domain that had captivated me.
+During my senior year, I was offered an internship and a full-time opportunity by Samsung
+Research Institute. I was assigned the task of image processing as my internship project—the
+project aimed to segment images into foreground and background for faster bokeh effect postprocessing. We researched and implemented multiple segmentation algorithms to compare their
+efficiency and accuracy. We finally chose Mask R-CNN due to its better performance. I used the
+TensorFlow framework to implement our model and converted the model into TensorFlow Lite to
+incorporate the trained model in the Samsung camera. This project familiarized me with image
+segmentation models and provided me with hands-on experience with the Tensorflow framework,
+neural networks, feature engineering, and data visualization techniques.
+Two and half years and still running, my work with Samsung has been enlightening as I often
+received the front seat of the raging developments in technology. Being part of the camera division,
+I have come to perceive the vast code. The developer must execute any new feature only after
+checking its viability against the massive codebase. My team is involved in implementing changes
+at the kernel level and at the 'Hardware Abstraction Layer,' which are coded in C and C++
+languages. Due to my competence in C and C++, I was involved in the flagship chipset, i.e.,
+Exynos 9820 (involving high specification devices like S10 and Note10 variants) OS upgrade from
+OS 10 to OS 11 for the camera system. I was also involved in the OS up-gradation of the
+Exynos9830 chipset (involving high specification devices like S20 and Note20 variants) from OS
+11 to OS 12 for the camera system. Being responsible for carefully migrating the camera system
+files and writing dependency code for the new OS, I could appreciate the complexities involved in
+working with the Samsung camera in Samsung mobile phone.
+Additionally, I implemented a new feature introduced in operating system 12 of Android for high
+specification devices like S20 and Note20. Google android introduced a new privacy feature to
+give complete control of the camera and mic access to the user for third-party applications. If the
+user disables the camera from the quick settings, this feature sends black frames instead of regular
+preview frames from camera sensors. This solution was critical as it also involved implementing
+changes in sensor files. This feature expanded my learning about camera sensor files and their
+implementations.
+All my experiences have taught me one common lesson: the world cannot function without data,
+and I am keen to contribute to its analysis through the magnificent sphere of Data Science. Post
+my Master's degree; I seek to be working for a reputed small-scale startup as a Machine Learning
+Engineer. This would help me strengthen the concepts of data science and better understand the
+operations of a successful startup. Five to six years down the line, I plan to work in the healthcare
+domain using data science to improve healthcare facilities in rural areas.
+Such ambitious targets have inspired me to apply to the Master's program in Data Science at your
+renowned university. Texas A&M University – College Station Campus is the perfect place to
+enhance my skillset and knowledge in this domain. I am eager to learn from your well-structured
+curriculum, including electives like Machine Learning and Deep Learning, which align with my
+interests. I look forward to working and learning under esteemed faculty members like Prof Yalong
+Pi. His work in Deep Learning for Visual Analytics of the Spread of COVID-19 Infection in
+Crowded Urban Environments was fascinating as it gave a visual analysis approach using neural
+networks to control the community spread of COVID. My academic and professional experiences
+have led me to encounter diverse people, and I want to expand upon this experience by engaging
+with my fellow scholars at the Operational Data Science Lab. Through my association with them,
+I will be able to embrace a global perspective that will play a pivotal role in maturing me as an
+individual and a seasoned professional.
+As I conclude, I assure you that through my endeavors in academia and the industry, I will strive
+to be a source of pride for you.
+
+
+------------------------------------------------------------------
+
+Creativity is the one quality that distinguishes humans from all other creations. It makes life
+interesting and worth living for. I feel that creativity is something that has been imbued in me.
+I see life as one huge canvas – it gives me the opportunity to experiment and to express my
+individuality – but in the end i want to paint a beautiful, unique and meaningful picture on this
+great canvas called life. I have a strong urge to be innovative in any enterprise that i
+undertake. It is this urge that has made me pursue graduate studies in the field of Computers.
+I recall one incident in college where the professor (He was the head of the department in
+which i studied) gave the class a difficult puzzle, which he had seen in a puzzle book, to solve.
+I thought about the puzzle for a long time and came up with an answer. But when i gave the
+answer to the professor, he was unusually surprised. It was a valid solution to the puzzle, but
+it was not the one mentioned in the puzzle book. I had invented another way of solving the
+puzzle. He appreciated my ability to innovate and encouraged me to be original. This incident
+really motivated me to think out of the box. It taught me that every problem had many
+solutions and it is was just a matter of finding them.
+Though i channelize my creativity in various activities, such as sketching and photography,
+computers function as the primary outlet for my creativity. But i have to say that i don&#39;t see
+computers as something just for playing around with. I am aware that the rapid
+advancements in technology during the past quarter of a century was mainly due to
+computers. I want to be a part of this technological advancement, and the best place for me
+to start would have to be in the country that has been in the forefront of these advancements
+– the country that gave the world the Internet.
+I was fascinated by computers ever since i was 13. That was when my father had bought me
+and my brothers a computer. But at that time my interest in computers would get me into
+trouble frequently. I still remember my elder brother admonishing me for fiddling with the
+computer and messing it up. As time went by my fascination grew into a strong quest for
+knowledge. I began to understand the fundamentals of working with a computer. Then at the
+age of 16, I began to learn programming. Even at that age my teachers and fellow students
+were impressed with my programming skills, and they still are.
+I have always been a good student, with good academic performance to show. I had scored
+79% in my 10th standard board exams. Then i graduated from high school with an average of
+91%. I had chosen Mathematics, Physics, Chemistry and Computer Science as my major
+subjects. I did my under-graduation in the field of information technology and secured an
+average of 72%. I am presently working as a Software Engineer in Hewlett Packard , which is
+a fortune 11 company.
+When i finished my schooling , i chose information technology as my undergraduate major,
+even though the IT sector was going though a huge trough at that time and there were no
+takers for IT as an undergraduate course. This was primarily due to my unshakable passion
+towards computers. I joined the esteemed B.S Abdur Rahman Crescent engineering college,
+which is among the top engineering colleges in chennai. I got a merit seat in that college.
+During my undergraduate study in crescent, i received training in fundamentals of
+engineering, communication, and electronics. I got exposed to the core subjects of information
+technology, such as Data Structures, Computer Architecture, Operating Systems,
+Microprocessors, Object Oriented Programming, Database Management Systems and Software
+Engineering. Apart from these, i was trained in other specialized subjects such as
+Telecommunication, Switching Techniques, Web Technologies, Software Quality Management,
+Distributed Operating Systems, Data Mining and Data Warehousing. I am also grateful to the
+university for having included a few non-technical subjects, which i think will stand me in good
+steed in this competitive world. These subjects include Principles of Management, Total Quality
+Management and Environmental Science and Engineering.
+Though I seek knowledge in all the above mentioned fields and technologies, I am particularly
+interested in the fields of Object Oriented Analysis, Design and Programming and Reverse
+Engineering as they are all intellectually challenging as well as interesting fields. My final year
+project was based on these concepts and was titled &#39;Extraction of object models&#39;. It was about
+creating a software that would automatically extract the design of an application from the
+
+executables. I was also the topper in my class for the subject of &#39;Object Oriented
+Programming&#39;. I am confident that given an opportunity, i can excel in these fields and make
+useful innovations.
+After four years of undergraduate education in the field of information technology, i feel i have
+devoured every bit of knowledge that has been fed to me. I consider these to be my first steps
+towards achieving my objectives and I am deeply grateful to my university and college for
+showing me the way. But the knowledge gained in undergraduate studies have not satiated
+me, they have only whetted my intellectual appetite. And i believe that your esteemed
+university will nourish this hunger of mine and make me bloated with knowledge. I would like
+to do my graduate course at an established university, complete with all facilities and which
+has been a yardstick for excellence like yours. In this regard, I had a very good feedback from
+my academic counselors and seniors. So i beseech you to kindly consider my credentials and
+let me have the honor of being associated with your university.
+In return I assure the university will find me a keen and passionate student, who would
+contribute to the excellent track record of your university. My admission to your university will
+propel me towards my career objective which is to become an innovator in technology. I am
+confident that with my solid undergraduate work and willingness to pursue new admissions
+and research, I can perform to my best and meet the high standards set by your university. I
+request you to kindly consider me for any form of financial assistance, as it would be of great
+help to me.
+I am really looking forward for an exciting stay at your university.
+
+
+
+---------------------------------------------------------------
+
+At the threshold of what I imagine to be an opportunity to test and transcend the realms of
+scientific discovery. It is my childhood passion to continue relentlessly; and experience, newness
+in every endeavor I undertake and venture to test my inner strength. The journey of an idea to
+reality must inevitably pass through the hands of an engineer. The infinite ways in which an
+engineer can manifest a simple idea to bring it to life gave a tremendous of appeal to me. The
+desire to learn how things work and my natural inclination towards Physics and Mathematics,
+gave me the impetus to become an engineer. My fascination with computers began from early
+high school when we had introductory computer classes. Further, programming and graphics
+lessons caught my imagination and soon computers became almost an obsession. This resulted in
+my choosing Computer Science for undergraduate studies.
+My interest in computer science further grew as a student of Computer Science Engineering, in
+MallaReddy College of Engineering and Technology, which is affiliated to the Jawaharlal Nehru
+Technological University (JNTU). My undergraduate program has given me a strong foundation
+and has brought about considerable maturity in my outlook. During the course of my
+undergraduate study, I was exposed to various subjects like Programming in C and JAVA, Data
+Structures through C, Database Management Systems (DBMS), Design and Analysis of
+Algorithms (DAA), Network Security, Software Engineering, Advanced Operating Systems
+(Distributed OS). This improved my knowledge immensely. Apart from the regular Bachelor’s
+degree, I learned various programming languages such as C, C++, C#, Java and HTML. I
+worked on various projects as part of the under graduation course, such as a project on “Bar
+Code Generation and Detection for Motor Vehicles”, using C#.
+
+My sheer interest in learning new things is evident from my Microsoft Technology Associate
+certification in Web Development Fundamentals. My flexibility towards learning is evident from
+my attendance to seminars on ‘Ethical hacking’ and ‘.NET Development’. I have also attended
+a workshop on ‘Android Application Programming’ at MRCET in 2012. The Internet
+revolution was also a significant spur that drove me to gain immense knowledge, which helped
+me to stand second in the technical quiz conducted in a reputed college named “VNR VIGNAN
+JYOTHI INSTITUTE OF ENGINEERING AND TECHONOLY“.
+
+I took part in various state level science fairs and talent search program competitions. My active
+participation in college and youth festivals reveals my dedicated involvement in extra curricular
+activities too. I am also an active member of the Computer Society of India (CSI).I took part in
+paper presentation titled “CAPTCHA” during my under-graduation course. For this
+presentation, I had to refer lots of books and other sources of information, which helped me gain
+additional knowledge, supplementing my regular courses. My involvement in such co-curricular
+and extra-curricular activities enhanced my communication skills as well as confidence.
+I am highly interested in Software Development and want to take up Computer Science as my
+field of study for the Master of Science program. My interest in these subjects drives me to learn
+them to the greatest of depths. Learning these subjects in their most modern form would not only
+give me the edge over other competing students but also provide me the satisfaction of pursuing
+the career that I like so much and which interests me to the core of my heart.
+An eminent faculty, excellent research facilities, pleasant university ambiance and a balanced
+academic program which are very much conducive to the fields of my interest I feel, make your
+University the right place to embark upon an academic career. Given the chance, I am confident
+that with my commitment &amp; hard work, I can excel and become an asset to your esteemed
+institution. Since I aim for a career which involves teaching with active research, in your
+esteemed University would provide a wonderful opportunity to pursue a graduate degree
+followed by a PhD. I am confident that I would bring out the best in myself if given the
+opportunity to develop my aptitude and skills through the Masters Program at your University.
+
+
+-------------------------------------------------------
+
+
+The Boundless possibility of trying out and the instant knowledge of the
+outcome that stimulates one for further analysis of a rationale in question is what I find
+most appealing about Computer Science Keeping up an inquisitive and explorative
+attitude, I believe, leads to a constant learning process. This approach adds to the already
+immense potential for innovation that exists in this field.
+As a student in the final year of undergraduate study for a Bachelor of
+Technology, I look to graduate study to refine my knowledge and skills in my areas of
+interest. I believe it will also serve to give direction to my goal of a career as a research
+professional at an academic research-oriented organization. I intend to pursue Master’s
+degree in order to reach that goal.
+Academic Background :
+My initial interest towards computers started in my ninth standard when I
+attended a science exhibition where a software embedded model greatly impressed me.
+After completing the secondary education, I had to choose between arts and science for
+my post-secondary education. Science as a subject has always fascinated me, right from
+school days. Further my father, being a Ph.D holder in Mathematics (IIT Kharagpur,
+India) exposed me to the wonders of Mathematics and made me understand the practical
+application of Mathematics in Technology. It is only because of this, I choose science as
+my major for my post secondary education.
+Institution:
+My diligent preparation and excellent performance in the two years of post-
+secondary education ensured me to stand in top 1 % in All India Engineering Entrance
+exam. On the basis of this achievement and my passion for computer science made me to
+opt IIIT ALLAHABAD, which is one of the top 10 reputed Engineering Institutions of
+India for under graduation in Information Technology.
+The well structured curriculum of my Institution exposed me to all the core areas
+of computer science like operating systems, database management systems, networks and
+network security, data structures and algorithms, software engineering. My intentional
+focus in these subjects with the aid of excellent environment and well equipped labs
+provided by the institution and lectures by eminent faculty helped me to have strong
+footing in the basic concepts, holding me in good academic arena for higher studies.
+Realizing the inherent importance of maintaining a good academic record to make a
+realistic claim for advanced graduate studies, I could succeed to get SGPI 7.8 / 10 in IInd
+year and 8.57 / 10 in III rd year.
+I had innate passion for organizing group activities right from my childhood. It
+worked in my undergraduate program and I took the leading role in organizing the events
+in “Effervescence 2008” in our institute and that experience filled me with confidence
+that I can face multifarious challenges in life.
+
+Research Interests and Experience :
+Security of computer systems and networking has become an issue of extreme
+importance due to the proliferation of the internet and the sophistication of attackers. The
+scope ranges from personal computers to corporate servers from e-commerce sites to
+government systems. The researchers can work on a variety of topics and develop
+protocols and systems that harden computers against attacks. This made me to hold
+social responsibility of coming out with an innovative solution to the widely spread
+problem of hacking. Fortunately, I got a chance to present my views by attending the
+International conference on Information Systems Security during Dec., 2007 at university
+of Delhi, India; I am exposed to the personal interaction and discussions with eminent
+faculty in computer science. The sessions and the lectures by eminent professors in the
+areas of Network security provided good knowledge. With these intellectual and
+informative insights, I succeeded to publish a research paper titled “Dynamic
+Isomorphism and Parallelism based on intrusion detection” in the conference HPCA-
+2009 held at IIT- BHU-Varanasi, India and I also presented a paper titled “Conjunctive
+Network intrusion detection based on Scenario” at a national level student technical
+symposium held at S.R.K.R. Engineering College, Bhimavaram, A.P., India. Presently a
+paper titled “Spam Filtering System based on LS-SVM using Kernel Target
+Alignment” is under review for acceptance to publish in ICMIS-2009.
+My achievement of standing All India 3 rd in a national level cryptography contest
+shows my interest towards the subject. Trusting in my knowledge and technical skills I
+was given a responsibility of being the chief System administrator and organizer of
+the winter school on geographical information systems during Jan, 2009 at our institute. I
+was also organizer for many other national level technical events. I also participated in
+many workshops related to computer science. The mini projects that I worked in 5 th , 6 th
+and 7 th semesters strengthened my programming skills (details in the resume).
+I have worked on many platforms and languages such as c,c++,java,sql,xml,shell
+scripting and different Linux and Networking packages through my research projects and
+training programs which show my capability to work on new projects.
+By successfully completing a training program on Network management course
+during May – June, 2009 at Institute of Management Technology, Ghaziabad, India,
+gained experience in handling various servers in different versions of Linux and windows
+server environments. With the experience and exposer that I had in my academics as
+well as research, I am confident enough to explore the new ideas in graduate studies.
+The excellent academic programs and research projects in the field of computer
+science at your university well matched my interest.
+Extremely distinguished faculty, a graduate program with high quality course
+work and research facilities with a cutting edge of every sub field are the factors which
+have motivated me to choose your university for my graduate studies.
+In conclusion, I would like to add that the essence of University education lies in
+the synergetic relationship between the student and his department. I feel that graduate
+
+study at your University will be the most logical extension of my academic pursuits and a
+major step towards achieving my objectives. I would be grateful to you if I’m accorded
+the opportunity to pursue my Graduate studies in Computer Science with financial
+assistance at your institution and am able to justify your faith in me.
+
+
+---------------------------------------------------------
+
+I consider myself fortunate to be born in a family where education is given utmost importance.
+The quest for knowledge and learning new things in life has always been my primary interest. It is the
+same quest for knowledge that inspired me to pursue Masters in Computer Science, specializing in
+Algorithms and Software Engineering. Before explaining my reasons to pursue MS in Computer Science
+Engineering, I would like to give a brief description of my career as progressed so far and also mention
+my academic and professional achievements.
+I was born and brought up in a small town in southern part of India, where I did my schooling.
+Ever since my childhood, Mathematics and Science have been my subjects of interest. Math problems
+have always intrigued me and my interest lies in solving them in different methods, applying the
+techniques learned in the class. It is the same interest that encourages me to find an optimum solution to
+the problems I face in my daily work life today, while developing quality software applications. I
+completed my high school with extremely good percentage, and was ranked among the top ten students
+of Andhra Pradesh state for the academic year 2001-2002. I was also the awarded prestigious
+“PRATIBHA” award by the Government of Andhra Pradesh State for my performance in high school,
+which I received from the then-Chief Minister of the state.
+After my high school, I wanted to study engineering to learn the practical application of science
+concepts learnt in high school and begin my career as an engineer. My excellent performance in high
+school helped me to get admitted to BITS-Pilani, which is one of the most reputed universities in India.
+Consistently ranked among the top five engineering schools in India along with IITs, BITS is one of the
+most sought after universities by engineering and science students. Though I joined in Electrical &amp;
+Electronics Engineering program at BITS, my interest has gradually shifted to the field of computer
+science. The fundamental course Computer Programming-I, which I studied in the first year sparked
+my interest in programming and design of efficient algorithms using the programming language C. The
+course Computer Programming-II taught efficient problem solving techniques and efficient way of
+writing algorithms. These two courses shifted my interest from Electrical Engineering to Computer
+Science. I performed well in these two courses and got good grades. In addition, I studied courses
+related to computer architecture like Microprocessor Programming and Interfacing and Digital
+Electronics. The elective course Object Oriented Programming with Java introduced me to advanced
+levels of programming and designing. I continue to use majority of the concepts learned in this course
+even today in my work life. The course Data Communication and Networking improved my knowledge
+about the concepts of networking and the assignments in these courses have given me with a strong footing
+in the theoretical and practical aspects of Computer Networks.
+One of the valuable offerings that BITS provides to its students is full time paid industry
+internships for one entire semester in the final year. I got an opportunity to work at National Aerospace
+Laboratories as an intern research associate. I worked under the guidance of Dr. Raveendranath U
+Nair, Scientist E2 on the project titled “Study on the Electro-Magnetic properties of Frequency
+Selective Surfaces for Airborne Radomes”. This work involves deriving formulae to calculate
+electromagnetic performance parameters like power transmission, power reflection and insertion phase
+delay of radome structures when frequency selective surfaces are incorporated in them. I was also
+responsible to write efficient programs using FORTRAN programming to calculate the EM properties
+at various frequencies and plot the EM properties at various frequency ranges. I published two IEEE
+papers at the IEEE AEM Conference 2009 held in Kolkata, on the work done during my internship
+along with my project guide Dr. Raveendranath U Nair and department head Dr R.M. Jha, Scientist F.
+After completing my under-graduate program at BITS-Pilani, I joined Infosys Technologies Ltd.
+as a Systems Engineer. I joined Infosys after my under-graduation to gain industry experience and
+practical knowledge on software engineering before I go for further studies. At Infosys, I had undergone
+
+training for 4 months and learnt various technologies like Relational Database Management Systems
+(RDBMS), Advanced Java, Algorithms, HTML/Javascript/CSS, XML programming and EJB. I
+completed the training with a CGPA of 4.96/5.0 which shows my passion for computer technologies. I
+started my industry work with the project on development of Product Information Management
+(PIM) System for Advance Auto Parts, a leading auto retailer in US. The PIM system is used by the
+retailer to streamline the data of auto parts they receive from the vendors and perform business
+validations. I was involved in the ‘Data Reports’ module of PIM project in which web based reports
+were developed using technologies like Java Server Faces, RichFaces and Spring Framework . This also
+includes writing complex SQL and JPA queries and optimization of the queries to improve the
+performance of the system. I also worked on technologies like C# and Silverlight in the development of
+Transport Management System for Wal-Mart. Wal-Mart uses our system to manage its huge set of
+carriers, to manage vendors, and optimize the routes of carriers and reduce shipping costs. In this
+project, I worked closely with Wal-Mart US employees and got an opportunity to interact with them on
+regular basis.
+After working in 2.5 years in Infosys, I joined Oracle India Pvt. Ltd to have a better career and
+experience on product development domain. At Oracle, I got an opportunity to develop their latest
+project management tool Fusion, on which thousands of developers are working on several modules.
+Working with many brilliant minds at Oracle, I developed my knowledge of software engineering. I was
+appreciated many a time by the Project Manager and Technology Architect for solving various
+challenges we faced during the development of the application. One such challenge was the
+development of custom UI component for JSF data table component to reduce the load time. Our project
+won the Best Managed Project for FY 2010-2011 for its high quality standards and performance.
+Over the past few years, I developed a keen interest in research and made it my career goal to
+contribute to research in software engineering. While developing the software, I was intrigued by the
+scope of the possible improvement of the performance of the application with proper research in this
+area. This industry work further contributed to my interest in Software Engineering and encouraged me
+to go for Masters Program. I believe that graduate studies in Computer Science will help me gain
+knowledge and hone my research skills in the desired field. Research projects I wish to take up under the
+faculty at Iowa State University will expose me to research in the field and interaction with faculty and
+fellow students will give a wider perspective of research being done in the software engineering and
+algorithms.
+From the information I got from the Iowa State University website and after speaking to the
+current students, I believe that the work being carried by the Software Engineering Laboratory at ISU
+matches with my interest. I believe working under the faculty at ISU will help me pursue research based
+quality graduate education. The strong research programs and state-of-the-art research labs encouraged
+me to apply for Iowa State University. With the background I have gained so far I strongly believe that I
+possess the aptitude, discipline and perseverance to sustain the motivation and drive needed for a
+Masters degree. From the knowledge gained from research work at National Aerospace Labs, the
+projects I worked on at the university and from my work experience in application development, I am
+confident that, if admitted to the MS program for Spring 2012 with financial aid, I will be on track to
+achieve my long term career goals. I am confident that education from Iowa State University will
+provide me with the best environment to achieve my goals and provide invaluable experiences.
+
+----------------------------------------------------------
